@@ -14,6 +14,25 @@
   }
 }
 
+/* Marquee trains: one train-width of leftward travel per cycle, looping seamlessly because
+   the strip is duplicated. 20s linear matches both tickers on the live site — the logo strip
+   (2400px train at 120px/s) and the hero client strip (1602px at 80px/s) each take 20s.
+   The animation also overrides the mid-cycle transform the capture baked into the class. */
+@media (prefers-reduced-motion: no-preference) {
+  .fx-marquee {
+    animation: fx-marquee-scroll 20s linear infinite;
+  }
+}
+
+@keyframes fx-marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
 /* Section entrance: fade + rise, matching the live site's opacity:0 -> 1 reveal. */
 @media (prefers-reduced-motion: no-preference) {
   .fx-reveal {

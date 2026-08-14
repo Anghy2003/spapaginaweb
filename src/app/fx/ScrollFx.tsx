@@ -106,6 +106,29 @@ export default function ScrollFx() {
       });
     }
 
+    // Marquees. Same story as the video panel: the capture froze each train mid-cycle as a
+    // static transform (e.g. matrix(1,0,0,1,-265.66,0)), so the strips sit crooked and still.
+    // They are found structurally — a clipping container noticeably narrower than its content,
+    // holding two or more equal-width children laid out side by side.
+    for (const host of Array.from(document.querySelectorAll<HTMLElement>("div"))) {
+      if (getComputedStyle(host).overflow === "visible") continue;
+      if (host.scrollWidth < host.clientWidth * 1.4 || host.clientWidth < 300) continue;
+      const trains = Array.from(host.children).filter(
+        (k): k is HTMLElement => k instanceof HTMLElement && k.tagName === "DIV",
+      );
+      if (trains.length < 2 || trains.length > 4) continue;
+      const rects = trains.map((t) => t.getBoundingClientRect());
+      if (rects.some((r) => r.width < 300)) continue;
+      if (Math.max(...rects.map((r) => r.width)) - Math.min(...rects.map((r) => r.width)) > 4) continue;
+      const sideBySide = rects.every((r, i) => i === 0 || r.left > rects[i - 1].left + rects[i - 1].width - 6);
+      if (!sideBySide) continue;
+
+      for (const t of trains) t.classList.add("fx-marquee");
+      cleanups.push(() => {
+        for (const t of trains) t.classList.remove("fx-marquee");
+      });
+    }
+
     // Entrance reveals. The shared chrome renders the navbar as the first <section> and the
     // footer as the last, with the page body in between — both are excluded.
     //
