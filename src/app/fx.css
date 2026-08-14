@@ -1,0 +1,30 @@
+/* Scroll behaviours restored on top of the generated clone — see fx/ScrollFx.tsx.
+   Kept out of globals.css / ditto.css so the generated fidelity CSS stays untouched. */
+
+/* Navbar: transparent over the hero, solid past the fold. Desktop only — below lg the live
+   site keeps its light --surface bar, which the capture already reproduces.
+   !important overrides the captured `bg-clr-0` utility (rgba(4,26,21,0)) on the banner. */
+@media (min-width: 1024px) {
+  .fx-nav {
+    transition: background-color 300ms ease;
+  }
+
+  .fx-nav-solid {
+    background-color: var(--color-001) !important;
+  }
+}
+
+/* Section entrance: fade + rise, matching the live site's opacity:0 -> 1 reveal. */
+@media (prefers-reduced-motion: no-preference) {
+  .fx-reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 600ms ease-out, transform 600ms ease-out;
+    will-change: opacity, transform;
+  }
+
+  .fx-reveal.fx-in {
+    opacity: 1;
+    transform: none;
+  }
+}

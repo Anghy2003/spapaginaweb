@@ -1,7 +1,9 @@
 import "./globals.css";
 import "./ditto-chrome.css";
+import "./fx.css";
 import type { ReactNode } from "react";
 import { SITE_ORIGIN } from "../lib/site";
+import ScrollFx from "./fx/ScrollFx";
 
 export const metadata = {
   "metadataBase": new URL(SITE_ORIGIN || "http://localhost:3000"),
@@ -155,6 +157,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang={"en"}>
       <body className="cn0">
+        <ScrollFx />
         <section className="h-[4.65rem] block fixed inset-x-0 z-9999 max-md:h-[3.9375rem] md:max-lg:h-[4.1875rem]">
           <div className="h-full block relative z-9999 bg-clr-0 max-lg:border-b max-lg:border-solid max-lg:border-b-border max-lg:bg-surface before:content-['_'] before:table before:w-0 before:h-0 before:text-foreground before:text-base before:leading-7 after:content-['_'] after:table after:w-0 after:h-0 after:text-foreground after:text-base after:leading-7" role="banner">
             <div className="h-full block max-w-407.5 px-[0.9375rem] mx-auto before:content-['_'] before:table before:w-0 before:h-0 before:text-foreground before:text-base before:leading-7 after:content-['_'] after:table after:w-0 after:h-0 after:text-foreground after:text-base after:leading-7">
