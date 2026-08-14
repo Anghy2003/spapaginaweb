@@ -35,6 +35,77 @@ export default function ScrollFx() {
       });
     }
 
+    // Hero video panel: on the live site it widens from an inset box to full-bleed while its
+    // sticky section is pinned (measured at 1280px: 830px wide until scrollY 200, reaching its
+    // 1240px cap by scrollY 1000). The capture froze one mid-animation frame as static CSS —
+    // `w-[54.4rem] mx-[12.8rem]` — so the panel renders permanently half-grown. Re-drive it.
+    //
+    // The panel is found structurally: walking up from the <video>, it is the first ancestor
+    // with a large symmetric inline margin. Progress comes from the pinned section's own
+    // scroll track, which is the responsive equivalent of the absolute offsets above.
+    const video = document.querySelector("video");
+    let panel: HTMLElement | null = null;
+    for (let el = video?.parentElement, i = 0; el && i < 8; el = el.parentElement, i++) {
+      const cs = getComputedStyle(el);
+      const ml = parseFloat(cs.marginLeft);
+      if (ml > 20 && Math.abs(ml - parseFloat(cs.marginRight)) < 2) {
+        panel = el;
+        break;
+      }
+    }
+
+    let sticky: HTMLElement | null = panel;
+    while (sticky && getComputedStyle(sticky).position !== "sticky") sticky = sticky.parentElement;
+    const track = sticky?.parentElement ?? null;
+
+    if (panel && track) {
+      let baseWidth = 0;
+      let baseMargin = 0;
+      const measure = () => {
+        panel.style.width = "";
+        panel.style.marginInline = "";
+        const cs = getComputedStyle(panel);
+        baseWidth = parseFloat(cs.width);
+        baseMargin = parseFloat(cs.marginLeft);
+      };
+      let queued = false;
+      const paint = () => {
+        queued = false;
+        const r = track.getBoundingClientRect();
+        const travel = r.height - window.innerHeight;
+        const raw = travel <= 0 ? 0 : Math.min(1, Math.max(0, -r.top / travel));
+        // The clone's sticky track is longer than the window the live site grows over, so the
+        // raw track progress is remapped onto it: growth starts an eighth of the way down and
+        // completes at five eighths (live: scrollY 200 -> 1000 against a 1600px track). Without
+        // this the panel reaches full width only at the very end of the pin.
+        const P_START = 0.125;
+        const P_END = 0.625;
+        const p = Math.min(1, Math.max(0, (raw - P_START) / (P_END - P_START)));
+        const full = (panel.parentElement as HTMLElement).clientWidth;
+        panel.style.width = baseWidth + (full - baseWidth) * p + "px";
+        panel.style.marginInline = baseMargin * (1 - p) + "px";
+      };
+      const onScroll = () => {
+        if (queued) return;
+        queued = true;
+        requestAnimationFrame(paint);
+      };
+      const onResize = () => {
+        measure();
+        paint();
+      };
+      measure();
+      paint();
+      window.addEventListener("scroll", onScroll, { passive: true });
+      window.addEventListener("resize", onResize, { passive: true });
+      cleanups.push(() => {
+        window.removeEventListener("scroll", onScroll);
+        window.removeEventListener("resize", onResize);
+        panel.style.width = "";
+        panel.style.marginInline = "";
+      });
+    }
+
     // Entrance reveals. The shared chrome renders the navbar as the first <section> and the
     // footer as the last, with the page body in between — both are excluded.
     //
