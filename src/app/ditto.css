@@ -1,0 +1,31 @@
+.cn0{min-height:100%;display:block;color:var(--foreground);font-family:Parkinsans, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:28px;letter-spacing:normal;word-spacing:0px;text-align:start;text-transform:none;white-space:normal;word-break:normal;overflow-wrap:normal;text-indent:0px;text-shadow:none;font-variant-caps:normal;font-feature-settings:normal;list-style-position:outside;writing-mode:horizontal-tb;direction:ltr;background-color:var(--background)}
+@media (max-width: 571px) {
+[data-ditto-id="style-div-13"]{background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/cloned/images/8b9642a70d5b.avif")}
+}
+@media (min-width: 572px) and (max-width: 1024px) {
+[data-ditto-id="style-div-13"]{background-image:linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("/assets/cloned/images/8b9642a70d5b.avif")}
+}
+/* Stage 4 — interaction states (hover/focus + eased transitions) */
+[data-ditto-id="style-36"]{transition:transform 0.5s}
+[data-ditto-id="style-37"]{transition:transform 0.5s}
+[data-ditto-id="style-38"]{transition:transform 0.5s}
+[data-ditto-id="style-div-14"]:hover{transform:matrix(1, 0, 0, 1, -1536, 0)}
+[data-ditto-id="style-div-15"]:hover{transform:matrix(1, 0, 0, 1, -549.984, 0)}
+[data-ditto-id="style-div-16"]:hover{transform:matrix(1, 0, 0, 1, -643.968, 0)}
+[data-ditto-id="style-div-17"]:hover{transform:matrix(1, 0, 0, 1, -244.305, 0)}
+[data-ditto-id="style-div-18"]:hover{transform:matrix(1, 0, 0, 1, -274.999, 0)}
+[data-ditto-id="style-36"]:hover{transform:matrix(0.91233, 0.409456, -0.409456, 0.91233, 0, 0)}
+[data-ditto-id="style-37"]:hover{transform:matrix(0.912156, 0.409843, -0.409843, 0.912156, 0, 0)}
+[data-ditto-id="style-38"]:hover{transform:matrix(0.894565, 0.446939, -0.446939, 0.894565, 0, 0)}
+[data-ditto-id="style-div-19"]:hover{transform:matrix(1, 0, 0, 1, -703.969, 0)}
+[data-ditto-id="style-div-20"]:hover{transform:matrix(1, 0, 0, 1, -807.365, 0)}
+[data-ditto-id="style-div-14"]:focus{transform:matrix(1, 0, 0, 1, -1536, 0)}
+[data-ditto-id="style-div-15"]:focus{transform:matrix(1, 0, 0, 1, -617.976, 0)}
+[data-ditto-id="style-div-16"]:focus{transform:matrix(1, 0, 0, 1, -711.96, 0)}
+[data-ditto-id="style-div-17"]:focus{transform:matrix(1, 0, 0, 1, -258.979, 0)}
+[data-ditto-id="style-div-18"]:focus{transform:matrix(1, 0, 0, 1, -291.019, 0)}
+[data-ditto-id="style-36"]:focus{transform:matrix(0.99448, 0.104928, -0.104928, 0.99448, 0, 0)}
+[data-ditto-id="style-37"]:focus{transform:matrix(0.996668, 0.0815636, -0.0815636, 0.996668, 0, 0)}
+[data-ditto-id="style-38"]:focus{transform:matrix(0.994699, 0.102833, -0.102833, 0.994699, 0, 0)}
+[data-ditto-id="style-div-19"]:focus{transform:matrix(1, 0, 0, 1, -778.754, 0)}
+[data-ditto-id="style-div-20"]:focus{transform:matrix(1, 0, 0, 1, -882.169, 0)}
