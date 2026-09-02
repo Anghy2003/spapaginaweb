@@ -6,6 +6,7 @@ export type MediaTile3Data = {
   imgSrc: string;
   text: string;
   text2: string;
+  text3: string;
 };
 /** A media tile. */
 export default function MediaTile3({ d, styles }: { d: MediaTile3Data; styles: MediaTile3Styles }) {
@@ -40,16 +41,14 @@ export default function MediaTile3({ d, styles }: { d: MediaTile3Data; styles: M
               </div>
             </div>
             <div className="block">
-              Mon – Fri : 9AM – 8PM
+              {d.text3}
             </div>
           </div>
           <a className="w-12.5 h-12.5 border border-solid border-border flex relative z-1 max-w-full rounded-[100px] justify-center items-center shrink-0 transform-[matrix(0.5,-0.866025,0.866025,0.5,0,0)] origin-[25px_25px] cursor-pointer max-lg:w-10 max-lg:h-10 max-lg:transform-[none] max-lg:origin-[initial]" data-component="link" href="/contact">
             <div className="w-[37%] block max-lg:w-[29.5%]">
               <img className="w-full h-4.5 block max-w-full overflow-clip object-cover aspect-[auto_18/18] align-middle max-lg:h-[0.6875rem]" data-component="image" alt="" height="18" src="/assets/cloned/svg/8ab131507f44.svg" width="18" />
             </div>
-            <div className="w-12 h-49 block absolute -top-18.5 left-0 opacity-0 min-w-0 pointer-events-none">
-              This is some text inside of a div block.
-            </div>
+            <div className="w-12 h-49 block absolute -top-18.5 left-0 opacity-0 min-w-0 pointer-events-none" aria-hidden="true" />
           </a>
           <div className="w-312.5 h-full block absolute top-0 left-0 opacity-0 min-w-0 rounded-[5px] bg-background max-md:hidden md:max-lg:w-146 md:max-lg:opacity-[initial]" />
         </div>

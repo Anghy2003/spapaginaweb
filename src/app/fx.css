@@ -3,7 +3,7 @@
 
 /* Navbar: transparent over the hero, solid past the fold. Desktop only — below lg the live
    site keeps its light --surface bar, which the capture already reproduces.
-   !important overrides the captured `bg-clr-0` utility (rgba(4,26,21,0)) on the banner. */
+   !important overrides the captured `bg-clr-0` utility (rgba(8, 10, 11, 0)) on the banner. */
 @media (min-width: 1024px) {
   .fx-nav {
     transition: background-color 300ms ease;
@@ -45,5 +45,55 @@
   .fx-reveal.fx-in {
     opacity: 1;
     transform: none;
+  }
+}
+
+/* The header floats transparently over each page's hero. Most heroes are dark, but some
+   (e.g. /case-study) are light photos where the white logo and nav links would wash out.
+   A gradient scrim under the transparent bar keeps them legible over any hero; it fades
+   out once the bar goes solid past the fold. Desktop only — below lg the bar is opaque. */
+@media (min-width: 1024px) {
+  /* The banner already carries Tailwind before:/after: utilities, so the scrim rides on
+     background-image rather than a pseudo-element. */
+  .fx-nav {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.42) 60%, rgba(0, 0, 0, 0.12) 100%);
+    transition: background-color 300ms ease, background-image 300ms ease;
+  }
+
+  .fx-nav-solid {
+    background-image: none;
+  }
+}
+
+.fx-logo-scrim {
+  filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.45));
+}
+
+/* Flip cards: the capture froze the wrapper at rotateY(180deg) — the state Webflow only
+   reaches on hover — so the front face rendered mirrored and unreadable. Reset the wrapper
+   to its resting angle and drive the flip from hover instead. The back face keeps the 180deg
+   it was captured with, so it reads correctly once the wrapper turns. */
+.fx-flip {
+  transform: perspective(1200px) !important;
+  transform-style: preserve-3d;
+  transition: transform 550ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fx-flip > * {
+  backface-visibility: hidden;
+}
+
+@media (prefers-reduced-motion: no-preference) and (hover: hover) {
+  .fx-flip:hover,
+  .fx-flip:focus-within {
+    transform: perspective(1200px) rotateY(180deg) !important;
+  }
+}
+
+/* Touch devices get no hover, so the back face would never be reachable: show it stacked
+   under the front card's content instead of hiding it behind an unreachable flip. */
+@media (hover: none) {
+  .fx-flip-back {
+    display: none;
   }
 }

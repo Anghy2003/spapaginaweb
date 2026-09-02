@@ -1,0 +1,6 @@
+.cn0{min-height:100%;display:block;color:var(--foreground);font-family:Parkinsans, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:28px;letter-spacing:normal;word-spacing:0px;text-align:start;text-transform:none;white-space:normal;word-break:normal;overflow-wrap:normal;text-indent:0px;text-shadow:none;font-variant-caps:normal;font-feature-settings:normal;list-style-position:outside;writing-mode:horizontal-tb;direction:ltr;background-color:var(--background)}
+
+/* Stage 4 — interaction states (hover/focus + eased transitions) */
+[data-ditto-id="style-div"]{transition:0.5s}
+[data-ditto-id="style-div"]:hover{border-bottom-color:rgb(60, 70, 73);border-left-color:rgb(60, 70, 73);border-right-color:rgb(60, 70, 73);border-top-color:rgb(60, 70, 73)}
+[data-ditto-id="style-div"]:focus{border-bottom-color:rgb(196, 206, 209);border-left-color:rgb(196, 206, 209);border-right-color:rgb(196, 206, 209);border-top-color:rgb(196, 206, 209)}
