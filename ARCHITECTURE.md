@@ -38,20 +38,13 @@ Recipes identify higher-level patterns such as repeated cards, logo clouds, navi
 
 ## Routes
 
-- / - Ixolyn - Webflow HTML Website Template
-- /401 - Ixolyn - Webflow HTML Website Template
-- /404 - Ixolyn - Webflow HTML Website Template
-- /about - Ixolyn - Webflow HTML Website Template
-- /blog - Ixolyn - Webflow HTML Website Template
-- /case-study - Ixolyn - Webflow HTML Website Template
-- /changelog - Ixolyn - Webflow HTML Website Template
-- /contact - Ixolyn - Webflow HTML Website Template
-- /dermatologist - Ixolyn - Webflow HTML Website Template
-- /license - Ixolyn - Webflow HTML Website Template
-- /pricing - Ixolyn - Webflow HTML Website Template
-- /service - Ixolyn - Webflow HTML Website Template
-- /style-guide - Ixolyn - Webflow HTML Website Template
-- /blog-post/clinical-perspectives-on-preventive-and-corrective-skin-treatments - Ixolyn - Clinical perspectives on preventive and corrective skin treatments
+- / - Inicio — Medical Livesthetic Fisiospa
+- /about - Nosotros
+- /service - Servicios (incluye la lista completa de tratamientos)
+- /pricing - Tarifas
+- /case-study - Resultados
+- /contact - Contacto
+- not-found.tsx - 404
 
 ## Tradeoffs
 

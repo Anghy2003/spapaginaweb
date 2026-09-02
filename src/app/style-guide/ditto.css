@@ -1,8 +1,0 @@
-.cn0{min-height:100%;display:block;color:var(--foreground);font-family:Parkinsans, sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:28px;letter-spacing:normal;word-spacing:0px;text-align:start;text-transform:none;white-space:normal;word-break:normal;overflow-wrap:normal;text-indent:0px;text-shadow:none;font-variant-caps:normal;font-feature-settings:normal;list-style-position:outside;writing-mode:horizontal-tb;direction:ltr;background-color:var(--background)}
-[data-ditto-id="style-div-70"]::placeholder{color:rgb(4, 26, 21);font-size:16px}
-[data-ditto-id="style-div-71"]::placeholder{color:rgb(4, 26, 21);font-size:16px}
-[data-ditto-id="style-div-72"]::placeholder{color:rgb(4, 26, 21);font-size:16px}
-/* Stage 4 — interaction states (hover/focus + eased transitions) */
-[data-ditto-id="style-div-70"]:focus{border-bottom-color:rgb(56, 152, 236);border-left-color:rgb(56, 152, 236);border-right-color:rgb(56, 152, 236);border-top-color:rgb(56, 152, 236)}
-[data-ditto-id="style-div-71"]:focus{border-left-color:rgb(56, 152, 236);border-right-color:rgb(56, 152, 236);border-top-color:rgb(56, 152, 236)}
-[data-ditto-id="style-div-72"]:focus{border-left-color:rgb(56, 152, 236);border-right-color:rgb(56, 152, 236);border-top-color:rgb(56, 152, 236)}

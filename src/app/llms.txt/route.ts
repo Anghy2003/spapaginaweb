@@ -1,7 +1,62 @@
+import { SITE_ORIGIN } from "../../lib/site";
+
 export const dynamic = "force-static";
 
+const ORIGIN = SITE_ORIGIN || "https://medicallivesthetic.com";
+
+const BODY = `# Medical Livesthetic Fisiospa
+
+Estética avanzada + fisioterapia profesional en un solo lugar. Cuidamos tu cuerpo de forma integral, combinando tratamientos estéticos con técnicas fisioterapéuticas para que te veas mejor y te sientas mejor.
+
+## Contacto
+
+- Teléfono / WhatsApp: +593 97 989 8964
+- Correo: medicallivesthetic@gmail.com
+- Dirección: Teresa de Ávila y Fray Luis de León (Parque Valladolid), Cuenca – Ecuador
+- Horario: lunes a sábado, 09:00 – 19:00
+
+## Servicios
+
+### Fisioterapia
+Tratamientos personalizados para aliviar el dolor, recuperar la movilidad y mejorar la función física.
+- Evaluación fisioterapéutica
+- Terapia para dolor muscular y articular
+- Rehabilitación de lesiones
+- Terapia postoperatoria
+- Masoterapia terapéutica
+- Electroterapia
+- Ultrasonido terapéutico
+- Ejercicios terapéuticos
+- Rehabilitación funcional
+
+### Estética: tratamientos faciales y corporales
+- Limpieza facial profunda
+- Tratamientos faciales: acné, deshidratación, manchas, arrugas, flacidez
+- Extracción de lunares y verrugas
+- Reducción de papada
+- Tratamiento para ojeras
+- Tratamiento para alopecia
+- Reducción de medidas
+- Tonificación (flacidez)
+- Moldeamiento
+- Maderoterapia
+- Mesoterapia
+
+### Otros
+- Administración de sueros y vitaminas: antiedad, deshidratación, vitaminas, energía
+- Masajes relajantes, deportivos y terapéuticos
+
+## Páginas
+
+- [Inicio](${ORIGIN}/) - Estética avanzada y fisioterapia profesional en Cuenca.
+- [Nosotros](${ORIGIN}/about) - Quiénes somos y cómo trabajamos.
+- [Servicios](${ORIGIN}/service) - Fisioterapia, estética facial y corporal, masajes.
+- [Resultados](${ORIGIN}/case-study) - Casos y tratamientos destacados.
+- [Contacto](${ORIGIN}/contact) - Agenda tu cita.
+`;
+
 export function GET() {
-  return new Response("# Ixolyn - Webflow HTML Website Template\n\nExperience premium salon services with Ixolyn. From skincare to hairstyling, enjoy expert care, modern treatments, and a relaxing beauty experience tailored for you.\n\nThis is a generated ditto.site clone. It preserves captured page content, metadata, route structure, and static assets where available.\n\n## Routes\n\n- [Ixolyn - Webflow HTML Website Template](https://ixolyn.webflow.io/) - Experience premium salon services with Ixolyn. From skincare to hairstyling, enjoy expert care, modern treatments, and a relaxing beauty experience tailored for you.\n- [Ixolyn - Webflow HTML Website Template](https://ixolyn.webflow.io/401) - Access exclusive Ixolyn content securely. Enter your password to explore premium services, private offers, and members-only salon features.\n- [Ixolyn - Webflow HTML Website Template](https://ixolyn.webflow.io/404) - Oops! The page you’re looking for isn’t available. Return to Ixolyn’s homepage and explore our premium salon services and beauty solutions.\n- [Ixolyn - Webflow HTML Website Template](https://ixolyn.webflow.io/about) - Discover Ixolyn, a modern salon dedicated to beauty and wellness. Our skilled professionals deliver personalized care using advanced techniques and premium products.\n- [Ixolyn - Webflow HTML Website Template](https://ixolyn.webflow.io/blog) - Stay updated with Ixolyn’s beauty tips, skincare guides, and haircare trends. Explore expert advice to maintain your style and confidence every day.\n- [Ixolyn - Webflow HTML Website Template](https://ixolyn.webflow.io/case-study) - See real transformations at Ixolyn. Our case studies highlight successful beauty treatments, showcasing expert techniques and client satisfaction results.\n- [Ixolyn - Webflow HTML Website Template](https://ixolyn.webflow.io/changelog) - Stay updated with Ixolyn’s changelog featuring recent improvements, feature updates, and fixes to keep your salon website running smoothly and efficiently.\n- [Ixolyn - Webflow HTML Website Template](https://ixolyn.webflow.io/contact) - Connect with Ixolyn for appointments and inquiries. Visit our salon or reach out online to experience professional beauty services tailored to your needs.\n- [Ixolyn - Webflow HTML Website Template](https://ixolyn.webflow.io/dermatologist) - Ixolyn offers advanced dermatology treatments for healthy skin. Get expert solutions for acne, pigmentation, and skin rejuvenation with trusted care.\n- [Ixolyn - Webflow HTML Website Template](https://ixolyn.webflow.io/license) - Review Ixolyn’s licensing details including image, font, and asset usage rights to ensure proper and legal use of all resources in your salon website.\n- [Ixolyn - Webflow HTML Website Template](https://ixolyn.webflow.io/pricing) - View Ixolyn’s transparent pricing for salon services. Get premium beauty treatments at competitive rates designed to suit your style and budget.\n- [Ixolyn - Webflow HTML Website Template](https://ixolyn.webflow.io/service) - Explore Ixolyn’s wide range of salon services including haircuts, skincare, spa, and makeup. Designed to enhance your beauty with expert precision and care.\n- [Ixolyn - Webflow HTML Website Template](https://ixolyn.webflow.io/style-guide) - Explore Ixolyn’s style guide featuring colors, typography, buttons, and UI elements crafted for a modern salon website with clean, consistent design.\n- [Ixolyn - Clinical perspectives on preventive and corrective skin treatments](https://ixolyn.webflow.io/blog-post/clinical-perspectives-on-preventive-and-corrective-skin-treatments) - Explore clinical insights on preventive and corrective skincare at Ixolyn. Learn treatments that protect, repair, and enhance your skin’s natural beauty.\n\n## Captured Content\n\n### Ixolyn - Webflow HTML Website Template\nThis is some text inside of a div block. Home About Service Pages Blog Contact Book appointment Book appointment Professional skin treatment Skin & hair restoration treatments Book your free consultation Book your free consultation Hair restoration Tattoo removal Injectable treatments What we solve Target every skin concern with precision care No matter your skin challenge, our advanced treatments are designed to restore clarity, texture, and confidence. Explore all treatments Experience personalized skin treatments designed to restore, protect, and enhance your natural glow. Book your consultation Book your consultation Acne & scar solutions Targeted treatments designed to reduce acne, fade\n\n### Ixolyn - Webflow HTML Website Template\nThis is some text inside of a div block. Home About Service Pages Blog Contact Book appointment Book appointment Password protected This page is password protected. If you are the website admin, or have access to this page, please type your password below. Password Get professional advice from our dermatology experts Speak with our experts (888)1234-567 info@example.com Useful links Home About Service Pricing Case study Dermatologist Blog Contact Designed by Flow Design Agency , Powered by Webflow\n\n### Ixolyn - Webflow HTML Website Template\nThis is some text inside of a div block. Home About Service Pages Blog Contact Book appointment Book appointment Oops! something went wrong We can’t find the page your are looking for. Back to home Back to home Get professional advice from our dermatology experts Speak with our experts (888)1234-567 info@example.com Useful links Home About Service Pricing Case study Dermatologist Blog Contact Designed by Flow Design Agency , Powered by Webflow\n\n### Ixolyn - Webflow HTML Website Template\nThis is some text inside of a div block. Home About Service Pages Blog Contact Book appointment Book appointment About clinic Complete dermatology treatment solutions Dermacare - Skin expert - Dermatology - Skincare - Cosmedic - Dermacare - Who we are Clinical dermatology professionals committed to skin health Our team provides ethical, medically guided care for comprehensive skin and hair health. 0 1 2 1 0 1 2 3 4 5 1 2 3 4 + Specialized advanced hair treatment care 0 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 0 1 2 3 1 2 % Outstanding patient satisfaction rate What we treat Cosmetic & aesthetic dermatology What’s included We provide advanced aesthetic treatments focused on skin rejuvenation, anti-a\n\n### Ixolyn - Webflow HTML Website Template\nThis is some text inside of a div block. Home About Service Pages Blog Contact Book appointment Book appointment Advanced skincare Latest dermatology insights articles Professional dermatology knowledge resources Browse now Sandra Bell 12 Apr Medically reviewed articles supporting effective skin treatment choices Mark Roseberry 12 Apr Clinical perspectives on preventive and corrective skin treatments Jennifer Lindsay 12 Apr Practical skin care guidance from board certified dermatologists Martin Claypool 12 Apr Trusted dermatology information for informed skin care decisions John Gonzalez 12 Apr Comprehensive dermatology knowledge from experienced skin specialists Willard Ware 12 Apr Professi\n\n### Ixolyn - Webflow HTML Website Template\nThis is some text inside of a div block. Home About Service Pages Blog Contact Book appointment Book appointment Recent treatments highlights Advanced skin treatments This is some text inside of a div block. Anti aging treatments This is some text inside of a div block. This is some text inside of a div block. Laser tattoo removal This is some text inside of a div block. This is some text inside of a div block. Mole removal procedure This is some text inside of a div block. This is some text inside of a div block. Scars treatments This is some text inside of a div block. This is some text inside of a div block. Botox injection therapy This is some text inside of a div block. This is some tex\n\n### Ixolyn - Webflow HTML Website Template\nThis is some text inside of a div block. Home About Service Pages Blog Contact Book appointment Book appointment Changelog Template Version 1.0 The Template Has Been Released! Back to home Back to home Get professional advice from our dermatology experts Speak with our experts (888)1234-567 info@example.com Useful links Home About Service Pricing Case study Dermatologist Blog Contact Designed by Flow Design Agency , Powered by Webflow\n\n### Ixolyn - Webflow HTML Website Template\nThis is some text inside of a div block. Home About Service Pages Blog Contact Book appointment Book appointment Contact us Consult dermatology experts for treatment Speak with experienced dermatologists to receive trusted advice, safe procedures, personalized treatments, and comprehensive care for achieving long-term healthy skin results. Call us: (888)1234-567 Email us: info@example.com Ready to start your journey toward healthier, glowing skin with our expert care? Request expert dermatology advice now Specialist advice for better skin. Custom consultation type General skin consultation Hair & scalp consultation Cosmetic / aesthetic consultation Choose time Morning (9:00 AM – 12:00 PM) Af\n", {
+  return new Response(BODY, {
     headers: { "content-type": "text/plain; charset=utf-8" },
   });
 }

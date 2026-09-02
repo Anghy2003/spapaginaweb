@@ -2,3 +2,7 @@ node_modules
 .next
 out
 dist
+
+# scratch de trabajo
+_*.js
+_*.json

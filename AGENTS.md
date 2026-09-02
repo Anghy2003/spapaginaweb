@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This is a generated ditto.site clone app for https://ixolyn.webflow.io/. It is a static Next.js App Router project produced from captured DOM, CSS, assets, metadata, and interaction recipes.
+Sitio de Medical Livesthetic Fisiospa (Cuenca, Ecuador), construido sobre un clon de ditto.site del template Ixolyn y reescrito para el negocio: contenido en español, paleta de marca (negro + turquesa #5ECDDA), logo propio en public/assets/brand/, y solo los tratamientos que el centro ofrece. It is a static Next.js App Router project produced from captured DOM, CSS, assets, metadata, and interaction recipes.
 
 ## Run
 
@@ -34,20 +34,13 @@ This is a generated ditto.site clone app for https://ixolyn.webflow.io/. It is a
 
 ## Routes
 
-- / - Ixolyn - Webflow HTML Website Template
-- /401 - Ixolyn - Webflow HTML Website Template
-- /404 - Ixolyn - Webflow HTML Website Template
-- /about - Ixolyn - Webflow HTML Website Template
-- /blog - Ixolyn - Webflow HTML Website Template
-- /case-study - Ixolyn - Webflow HTML Website Template
-- /changelog - Ixolyn - Webflow HTML Website Template
-- /contact - Ixolyn - Webflow HTML Website Template
-- /dermatologist - Ixolyn - Webflow HTML Website Template
-- /license - Ixolyn - Webflow HTML Website Template
-- /pricing - Ixolyn - Webflow HTML Website Template
-- /service - Ixolyn - Webflow HTML Website Template
-- /style-guide - Ixolyn - Webflow HTML Website Template
-- /blog-post/clinical-perspectives-on-preventive-and-corrective-skin-treatments - Ixolyn - Clinical perspectives on preventive and corrective skin treatments
+- / - Inicio — Medical Livesthetic Fisiospa
+- /about - Nosotros
+- /service - Servicios (incluye la lista completa de tratamientos)
+- /pricing - Tarifas
+- /case-study - Resultados
+- /contact - Contacto
+- not-found.tsx - 404
 
 ## Do Not Edit Casually
 
