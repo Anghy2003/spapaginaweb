@@ -20,15 +20,15 @@ const Tile_data = [
     { text: "Estética facial y corporal" }
 ];
 const MediaTile_data = [
-    { text: "Evaluación fisioterapéutica", description: "El punto de partida: valoramos tu caso y definimos el plan", alt: "service service card one", imgSrc: "/assets/cloned/images/493aa7af7d8a.webp" },
-    { text: "Terapia para dolor muscular y articular", description: "Alivio del dolor y la tensión con técnicas manuales y aparatología", alt: "service service card two", imgSrc: "/assets/cloned/images/39efc481f922.jpg" },
-    { text: "Rehabilitación de lesiones y postoperatoria", description: "Recupera movilidad y fuerza tras una lesión o una cirugía", alt: "service service card three", imgSrc: "/assets/cloned/images/29c7b6bb05dd.jpg" },
-    { text: "Masoterapia y masajes", description: "Masajes relajantes, deportivos y terapéuticos", alt: "service service card four", imgSrc: "/assets/cloned/images/2e20d9930768.webp" },
-    { text: "Estética facial", description: "Limpieza profunda y tratamientos para acné, manchas, arrugas y flacidez", alt: "service service card five", imgSrc: "/assets/cloned/images/5a7e06ab3343.avif" },
+    { text: "Evaluación fisioterapéutica", description: "El punto de partida: valoramos tu caso y definimos el plan", alt: "Evaluación fisioterapéutica", imgSrc: "/assets/fotos/terapia-manual.webp" },
+    { text: "Terapia para dolor muscular y articular", description: "Alivio del dolor y la tensión con técnicas manuales y aparatología", alt: "Terapia para dolor muscular", imgSrc: "/assets/fotos/masaje-terapeutico.webp" },
+    { text: "Rehabilitación de lesiones y postoperatoria", description: "Recupera movilidad y fuerza tras una lesión o una cirugía", alt: "Rehabilitación", imgSrc: "/assets/fotos/rehabilitacion.webp" },
+    { text: "Masoterapia y masajes", description: "Masajes relajantes, deportivos y terapéuticos", alt: "Masaje relajante", imgSrc: "/assets/fotos/masaje-relajante.webp" },
+    { text: "Estética facial", description: "Limpieza profunda y tratamientos para acné, manchas, arrugas y flacidez", alt: "Tratamiento facial", imgSrc: "/assets/fotos/tratamiento-facial.webp" },
     { text: "Estética corporal", description: "Maderoterapia, mesoterapia, reducción de medidas y moldeamiento", alt: "service service card six", imgSrc: "/assets/cloned/images/7095b493bb44.webp" }
 ];
 const MediaTile2_data = [
-    { href: "/contact", imgSrc: "/assets/cloned/images/752adf555312.avif", href2: "/contact", label: "Sueros y vitaminas antiedad ", href3: "/contact" },
+    { href: "/contact", imgSrc: "/assets/fotos/antiedad-antes-despues.webp", href2: "/contact", label: "Sueros y vitaminas antiedad ", href3: "/contact" },
     { href: "/contact", imgSrc: "/assets/cloned/images/2e20d9930768.webp", srcSet: "/assets/cloned/images/6c1b62d7ab78.webp 500w, /assets/cloned/images/18f4b5db04f9.webp 800w, /assets/cloned/images/02e1846354e0.webp 1080w, /assets/cloned/images/5bc3abf2829d.webp 1600w, /assets/cloned/images/fe0e8f26158d.webp 2000w, /assets/cloned/images/0a1f389ce5f5.webp 2600w, /assets/cloned/images/2707f429becd.webp 3200w, /assets/cloned/images/2e20d9930768.webp 3216w", href2: "/contact", label: "Reducción de medidas ", href3: "/contact" },
     { href: "/contact", imgSrc: "/assets/cloned/images/23fd68cba0e9.webp", srcSet: "/assets/cloned/images/78f4fefe9cb5.webp 500w, /assets/cloned/images/7fbfe5c95ebd.webp 800w, /assets/cloned/images/baa83cd82510.webp 1080w, /assets/cloned/images/45c18adf75c8.webp 1600w, /assets/cloned/images/022fdf278d6a.webp 2000w, /assets/cloned/images/9bc841dc1a54.webp 2600w, /assets/cloned/images/16793beebcd8.webp 3200w, /assets/cloned/images/23fd68cba0e9.webp 3216w", href2: "/contact", label: "Extracción de lunares y verrugas ", href3: "/contact" }
 ];

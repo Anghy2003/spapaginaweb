@@ -97,3 +97,17 @@
     display: none;
   }
 }
+
+/* Home service cards below lg: swipeable strip that snaps one card at a time (see ScrollFx). */
+@media (max-width: 1024px) {
+  .fx-cards-strip {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+  }
+
+  .fx-cards-strip::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -21,14 +21,14 @@ const Tile_data = [
     { text: "Mesoterapia" }
 ];
 const MediaTile_data = [
-    { alt: "home service card image two", imgSrc: "/assets/cloned/images/e52a29329ff9.avif", text: "Tratamiento de acné y manchas", description: "Protocolos dirigidos a controlar el acné, atenuar manchas y devolver a tu piel una apariencia más limpia y uniforme." },
-    { alt: "home service card image six", imgSrc: "/assets/cloned/images/752adf555312.avif", text: "Sueros y vitaminas antiedad", description: "Sueros y vitaminas antiedad que hidratan, aportan energía y ayudan a mantener una piel firme y luminosa." },
-    { alt: "service-marquee-v2-image", imgSrc: "/assets/cloned/images/493aa7af7d8a.webp", kind: "image", text: "Evaluación fisioterapéutica", description: "Toda sesión empieza con una evaluación fisioterapéutica para diseñar el tratamiento que tu cuerpo necesita." },
-    { alt: "home service card image five", imgSrc: "/assets/cloned/images/3bfec6ce4d6d.avif", kind: "image", text: "Limpieza facial profunda", description: "Limpieza facial profunda que purifica, hidrata y mejora la textura y luminosidad natural de tu piel." },
-    { alt: "home service card image six", imgSrc: "/assets/cloned/images/fb322ad650bc.webp", kind: "image", sizes: "(max-width: 991px) 100vw, 850px", srcSet: "/assets/cloned/images/8ad226202378.webp 500w, /assets/cloned/images/aee7820283e0.webp 800w, /assets/cloned/images/fb322ad650bc.webp 818w", text: "Profesionales certificados", description: "Formación en fisioterapia y estética, con protocolos seguros y atención personalizada." },
-    { alt: "home service card image one", imgSrc: "/assets/cloned/images/54b7422fbd54.webp", kind: "image", text: "Electroterapia y ultrasonido", description: "Electroterapia y ultrasonido terapéutico para acelerar la recuperación y potenciar los resultados de cada sesión." },
-    { alt: "home service card image two", imgSrc: "/assets/cloned/images/e52a29329ff9.avif", kind: "image", text: "Tratamiento de acné y manchas", description: "Protocolos dirigidos a controlar el acné, atenuar manchas y devolver a tu piel una apariencia más limpia y uniforme." },
-    { alt: "home service card image six", imgSrc: "/assets/cloned/images/752adf555312.avif", text: "Sueros y vitaminas antiedad", description: "Sueros y vitaminas antiedad que hidratan, aportan energía y ayudan a mantener una piel firme y luminosa." }
+    { alt: "Tratamiento de acné", imgSrc: "/assets/fotos/tratamiento-acne.webp", text: "Tratamiento de acné y manchas", description: "Protocolos dirigidos a controlar el acné, atenuar manchas y devolver a tu piel una apariencia más limpia y uniforme." },
+    { alt: "Tratamiento antiedad", imgSrc: "/assets/fotos/antiedad-antes-despues.webp", text: "Sueros y vitaminas antiedad", description: "Sueros y vitaminas antiedad que hidratan, aportan energía y ayudan a mantener una piel firme y luminosa." },
+    { alt: "Evaluación fisioterapéutica", imgSrc: "/assets/fotos/terapia-manual.webp", kind: "image", text: "Evaluación fisioterapéutica", description: "Toda sesión empieza con una evaluación fisioterapéutica para diseñar el tratamiento que tu cuerpo necesita." },
+    { alt: "Limpieza facial profunda", imgSrc: "/assets/fotos/tratamiento-facial.webp", kind: "image", text: "Limpieza facial profunda", description: "Limpieza facial profunda que purifica, hidrata y mejora la textura y luminosidad natural de tu piel." },
+    { alt: "Fisioterapeuta con paciente", imgSrc: "/assets/fotos/ejercicios-terapeuticos.webp", kind: "image", text: "Profesionales certificados", description: "Formación en fisioterapia y estética, con protocolos seguros y atención personalizada." },
+    { alt: "Electroterapia", imgSrc: "/assets/fotos/electroterapia.webp", kind: "image", text: "Electroterapia y ultrasonido", description: "Electroterapia y ultrasonido terapéutico para acelerar la recuperación y potenciar los resultados de cada sesión." },
+    { alt: "Tratamiento de acné", imgSrc: "/assets/fotos/tratamiento-acne.webp", kind: "image", text: "Tratamiento de acné y manchas", description: "Protocolos dirigidos a controlar el acné, atenuar manchas y devolver a tu piel una apariencia más limpia y uniforme." },
+    { alt: "Tratamiento antiedad", imgSrc: "/assets/fotos/antiedad-antes-despues.webp", text: "Sueros y vitaminas antiedad", description: "Sueros y vitaminas antiedad que hidratan, aportan energía y ayudan a mantener una piel firme y luminosa." }
 ];
 const Tile2_data = [
     { text: "Fisioterapeutas certificados", text2: "Fisioterapeutas certificados que trabajan bajo estándares clínicos actualizados." },
@@ -38,15 +38,15 @@ const Tile2_data = [
 ];
 const Logo_data = [
     { alt: "mission-image-1", sizes: "(max-width: 767px) 100vw, 591px", imgSrc: "/assets/cloned/images/92257d16c1db.webp", srcSet: "/assets/cloned/images/44b159c116e8.webp 500w, /assets/cloned/images/0ea7fe4cc19a.webp 800w, /assets/cloned/images/04c84ac4ddeb.webp 1080w, /assets/cloned/images/92257d16c1db.webp 1458w" },
-    { alt: "home mission image two", imgSrc: "/assets/cloned/images/43e694d0b71a.avif" },
-    { alt: "home mission image three", imgSrc: "/assets/cloned/images/e50c3be7a8b1.avif" },
-    { alt: "home mission image five", imgSrc: "/assets/cloned/images/dfbf813c5026.avif" }
+    { alt: "Rehabilitación", imgSrc: "/assets/fotos/rehabilitacion.webp" },
+    { alt: "Ultrasonido terapéutico", imgSrc: "/assets/fotos/ultrasonido-terapeutico.webp" },
+    { alt: "Masaje de cuello y espalda", imgSrc: "/assets/fotos/masaje-cuello.webp" }
 ];
 const MediaTile2_data = [
-    { kind: "image", alt: "imagen de servicios", imgSrc: "/assets/cloned/images/39efc481f922.jpg", text: "Masoterapia terapéutica", text2: "Alivia el dolor muscular y la tensión" },
+    { kind: "image", alt: "Masoterapia terapéutica", imgSrc: "/assets/fotos/masaje-terapeutico.webp", text: "Masoterapia terapéutica", text2: "Alivia el dolor muscular y la tensión" },
     { kind: "image", alt: "home popular services two", imgSrc: "/assets/cloned/images/7095b493bb44.webp", text: "Maderoterapia", text2: "Moldea, tonifica y reduce medidas" },
     { kind: "image", alt: "service-image-marquee", sizes: "(max-width: 991px) 100vw, 850px", imgSrc: "/assets/cloned/images/bfd02f65e2ca.webp", srcSet: "/assets/cloned/images/fce6006a0df7.webp 500w, /assets/cloned/images/1ea60f435ff8.webp 800w, /assets/cloned/images/d7fbdd96ee35.webp 1080w, /assets/cloned/images/08bcd8fd3e04.webp 1600w, /assets/cloned/images/bfd02f65e2ca.webp 1700w", text: "Limpieza facial profunda", text2: "Limpieza profunda e hidratación inmediata" },
-    { alt: "home popular services four", imgSrc: "/assets/cloned/images/46a08712a3be.avif", text: "Mesoterapia", text2: "Reduce medidas y combate la flacidez" }
+    { alt: "Mesoterapia", imgSrc: "/assets/fotos/mesoterapia-facial.webp", text: "Mesoterapia", text2: "Reduce medidas y combate la flacidez" }
 ];
 const Logo2_data = [
     { alt: "home why choose us smal image one", imgSrc: "/assets/cloned/images/8de5f0fdb59a.webp" },
@@ -79,17 +79,17 @@ const MediaTile3_data = [
     { height: "18", imgSrc: "/assets/cloned/svg/c1483f6407e4.svg", width: "18", text: "Atención personalizada e integral" }
 ];
 const MediaTile4_data = [
-    { href: "/service", imgSrc: "/assets/cloned/images/752adf555312.avif", href2: "/service", label: "Sueros y vitaminas antiedad ", href3: "/service" },
+    { href: "/service", imgSrc: "/assets/fotos/antiedad-antes-despues.webp", href2: "/service", label: "Sueros y vitaminas antiedad ", href3: "/service" },
     { href: "/service", imgSrc: "/assets/cloned/images/2e20d9930768.webp", srcSet: "/assets/cloned/images/6c1b62d7ab78.webp 500w, /assets/cloned/images/18f4b5db04f9.webp 800w, /assets/cloned/images/02e1846354e0.webp 1080w, /assets/cloned/images/5bc3abf2829d.webp 1600w, /assets/cloned/images/fe0e8f26158d.webp 2000w, /assets/cloned/images/0a1f389ce5f5.webp 2600w, /assets/cloned/images/2707f429becd.webp 3200w, /assets/cloned/images/2e20d9930768.webp 3216w", href2: "/service", label: "Reducción de medidas ", href3: "/service" },
     { href: "/service", imgSrc: "/assets/cloned/images/23fd68cba0e9.webp", srcSet: "/assets/cloned/images/78f4fefe9cb5.webp 500w, /assets/cloned/images/7fbfe5c95ebd.webp 800w, /assets/cloned/images/baa83cd82510.webp 1080w, /assets/cloned/images/45c18adf75c8.webp 1600w, /assets/cloned/images/022fdf278d6a.webp 2000w, /assets/cloned/images/9bc841dc1a54.webp 2600w, /assets/cloned/images/16793beebcd8.webp 3200w, /assets/cloned/images/23fd68cba0e9.webp 3216w", href2: "/service", label: "Extracción de lunares y verrugas ", href3: "/service" }
 ];
 const Logo8_data = [
-    { alt: "Tratamiento para alopecia", imgSrc: "/assets/cloned/images/8de5f0fdb59a.webp" },
-    { alt: "Limpieza facial profunda", imgSrc: "/assets/cloned/images/b676cfbaa798.webp" },
-    { alt: "Tratamiento facial", imgSrc: "/assets/cloned/images/de33b70d6383.webp" },
-    { alt: "Cuidado capilar", imgSrc: "/assets/cloned/images/9d16b467bd83.webp" },
-    { alt: "Extracción de lunares y verrugas", imgSrc: "/assets/cloned/images/1c90136a435f.webp" },
-    { alt: "Sesión de tratamiento", imgSrc: "/assets/cloned/images/487fa58beb46.webp" }
+    { alt: "Masaje relajante", imgSrc: "/assets/fotos/masaje-relajante.webp" },
+    { alt: "Terapia manual", imgSrc: "/assets/fotos/terapia-manual.webp" },
+    { alt: "Rehabilitación", imgSrc: "/assets/fotos/rehabilitacion.webp" },
+    { alt: "Tratamiento facial", imgSrc: "/assets/fotos/tratamiento-facial.webp" },
+    { alt: "Electroterapia", imgSrc: "/assets/fotos/electroterapia.webp" },
+    { alt: "Mesoterapia facial", imgSrc: "/assets/fotos/mesoterapia-facial.webp" }
 ];
 const Logo9_data = [
     { kind: "image", alt: "instagram-ticker-image", imgSrc: "/assets/cloned/images/b1bba367b88b.webp", srcSet: "/assets/cloned/images/96c5b7613678.webp 500w, /assets/cloned/images/b1bba367b88b.webp 600w", kind2: "link" },
@@ -278,7 +278,7 @@ export default function Page() {
                     </div>
                     <div className="block overflow-hidden" data-ditto-id="style-div-25">
                       <div className="block text-background transform-[matrix(1,0,0,1,0,-0.09324)] whitespace-nowrap max-lg:transform-[none]" data-ditto-id="style-button">
-                        {"Fisioterapia y estética integral"}
+                        {"Fisioterapia y Estética Integral"}
                       </div>
                     </div>
                   </div>
