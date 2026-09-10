@@ -98,7 +98,7 @@
   }
 }
 
-/* Home service cards below lg: swipeable strip that snaps one card at a time (see ScrollFx). */
+/* Horizontal rows below lg: swipeable strips that snap one item at a time (see ScrollFx). */
 @media (max-width: 1024px) {
   .fx-cards-strip {
     overflow-x: auto;
