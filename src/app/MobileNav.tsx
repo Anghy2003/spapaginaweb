@@ -96,7 +96,7 @@ export default function MobileNav() {
                 medicallivesthetic@gmail.com
               </a>
               <div className="block text-color-009 leading-6">
-                Lunes a sábado · 09:00 – 19:00
+                Lunes a viernes · 8:30 – 12:00 y 14:00 – 17:30
               </div>
             </div>
           </nav>

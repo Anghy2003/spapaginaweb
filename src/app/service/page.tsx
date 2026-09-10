@@ -183,7 +183,7 @@ export default function Page() {
                   </div>
                   <div className="block" data-ditto-id="style-div-36">
                     <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px]" data-ditto-id="style-div-37">
-                      25k
+                      300+
                     </div>
                     <div className="block whitespace-nowrap" data-ditto-id="style-div-38">
                       Pacientes satisfechas

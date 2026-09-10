@@ -13,7 +13,7 @@ Estética avanzada + fisioterapia profesional en un solo lugar. Cuidamos tu cuer
 - Teléfono / WhatsApp: +593 97 989 8964
 - Correo: medicallivesthetic@gmail.com
 - Dirección: Teresa de Ávila y Fray Luis de León (Parque Valladolid), Cuenca – Ecuador
-- Horario: lunes a sábado, 09:00 – 19:00
+- Horario: lunes a viernes, 8:30 – 12:00 y 14:00 – 17:30
 
 ## Servicios
 

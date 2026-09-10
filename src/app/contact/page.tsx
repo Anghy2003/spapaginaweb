@@ -11,9 +11,8 @@ const Tile_data = [
 ];
 const Tile_data2 = [
     { value: "", text: "Elige el horario" },
-    { value: "Mañana (09:00 – 12:00)", text: "Mañana (09:00 – 12:00)" },
-    { value: "Tarde (12:00 – 16:00)", text: "Tarde (12:00 – 16:00)" },
-    { value: "Noche (16:00 – 20:00)", text: "Noche (16:00 – 20:00)" }
+    { value: "Mañana (8:30 – 12:00)", text: "Mañana (8:30 – 12:00)" },
+    { value: "Tarde (14:00 – 17:30)", text: "Tarde (14:00 – 17:30)" }
 ];
 const Tile_meta: string[][] = [
     ["n89"],
