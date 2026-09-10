@@ -44,12 +44,12 @@ const Logo2_data = [
     { alt: "client-service-small-image", imgSrc: "/assets/cloned/images/dc8027b34669.webp" }
 ];
 const Logo3_data = [
-    { alt: "Tratamiento para alopecia", imgSrc: "/assets/cloned/images/8de5f0fdb59a.webp" },
-    { alt: "Limpieza facial profunda", imgSrc: "/assets/cloned/images/b676cfbaa798.webp" },
-    { alt: "Tratamiento facial", imgSrc: "/assets/cloned/images/de33b70d6383.webp" },
-    { alt: "Cuidado capilar", imgSrc: "/assets/cloned/images/9d16b467bd83.webp" },
-    { alt: "Extracción de lunares y verrugas", imgSrc: "/assets/cloned/images/1c90136a435f.webp" },
-    { alt: "Sesión de tratamiento", imgSrc: "/assets/cloned/images/487fa58beb46.webp" }
+    { alt: "Masaje relajante", imgSrc: "/assets/fotos/masaje-relajante.webp" },
+    { alt: "Terapia manual", imgSrc: "/assets/fotos/terapia-manual.webp" },
+    { alt: "Rehabilitación", imgSrc: "/assets/fotos/rehabilitacion.webp" },
+    { alt: "Tratamiento facial", imgSrc: "/assets/fotos/tratamiento-facial.webp" },
+    { alt: "Electroterapia", imgSrc: "/assets/fotos/electroterapia.webp" },
+    { alt: "Mesoterapia facial", imgSrc: "/assets/fotos/mesoterapia-facial.webp" }
 ];
 const MediaTile3_data = [
     { alt: "Fachada de Medical Livesthetic Fisiospa", height: "687", imgSrc: "/assets/brand/local.jpg", text: "Nuestra sede", text2: "Teresa de Ávila y Fray Luis de León", text3: "Parque Valladolid, Cuenca – Ecuador" },

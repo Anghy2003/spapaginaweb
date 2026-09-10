@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { NAV, isActive } from "./HeaderNav";
 import { cn } from "../lib/utils";
+import { SOCIAL } from "../lib/social";
 
 /**
  * The capture kept the template's hamburger glyph but not Webflow's menu runtime, so on
@@ -98,6 +99,13 @@ export default function MobileNav() {
               <div className="block text-color-009 leading-6">
                 Lunes a viernes · 8:30 – 12:00 y 14:00 – 17:30
               </div>
+            </div>
+            <div className="flex mt-5 px-4 gap-3">
+              {SOCIAL.map((s) => (
+                <a key={s.href} className="w-10 h-10 flex rounded-[100%] justify-center items-center bg-color-006 cursor-pointer" href={s.href} target="_blank" rel="noopener noreferrer" aria-label={s.label}>
+                  <img className="w-4 h-4 block object-contain" src={s.icon} alt="" width="16" height="16" />
+                </a>
+              ))}
             </div>
           </nav>
         </div>

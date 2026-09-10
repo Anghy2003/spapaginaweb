@@ -54,4 +54,3 @@ node scripts/build-spa-videos.js     # spa/*.mp4 -> public/assets/spa/ (marca de
 Contenido de ejemplo que hay que reemplazar por datos reales:
 
 - Los dos testimonios son de muestra
-- Los enlaces de Facebook e Instagram son genéricos

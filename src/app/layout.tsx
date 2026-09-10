@@ -7,6 +7,7 @@ import ScrollFx from "./fx/ScrollFx";
 import MobileNav from "./MobileNav";
 import HeaderNav from "./HeaderNav";
 import FooterNav from "./FooterNav";
+import { SOCIAL } from "../lib/social";
 
 const SITE_TITLE = "Medical Livesthetic Fisiospa | Fisioterapia y estética avanzada en Cuenca";
 const SITE_DESCRIPTION = "Estética avanzada + fisioterapia profesional en un solo lugar. Masajes terapéuticos y relajantes, tratamientos faciales y corporales, y fisioterapia para dolor, tensión y rehabilitación. Agenda tu cita al +593 97 989 8964.";
@@ -38,44 +39,6 @@ export const viewport = {
   "width": "device-width",
   "initialScale": 1
 };
-
-
-import { cn } from "../lib/utils";
-
-function Logo({ d, styles }: { d: LogoData; styles: LogoStyles }) {
-  return (
-    <a className="w-10 h-10 flex max-w-full rounded-[100%] flex-col justify-center items-center bg-primary cursor-pointer" href={d.href} target="_blank">
-      <div className="flex max-w-[0.9375rem] justify-center items-center">
-        <img className={cn("w-full block max-w-full overflow-clip object-cover aspect-[auto_40/40] align-middle", styles.className)} alt={d.alt} height="40" src={d.imgSrc} width="40" />
-      </div>
-    </a>
-  );
-}
-
-
-const Logo_data = [
-    { href: "https://www.facebook.com/", alt: "Facebook", imgSrc: "/assets/cloned/svg/f1a96a7fc343.svg" },
-    { href: "https://wa.me/593979898964", alt: "WhatsApp", imgSrc: "/assets/brand/whatsapp.svg" },
-    { href: "https://www.instagram.com/", alt: "Instagram", imgSrc: "/assets/cloned/svg/fecd4b640113.svg" }
-];
-
-
-
-
-const Logo_meta: string[][] = [
-    ["style-30", "Ln1018", "Ln1019"],
-    ["style-31", "Ln1021", "Ln1022"],
-    ["style-32", "Ln1024", "Ln1025"]
-];
-
-
-
-
-const Logo_styles = [
-    { className: "h-4" },
-    { className: "h-[0.9375rem]" },
-    { className: "h-[0.9375rem]" }
-];
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
@@ -163,7 +126,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   </div>
                 </div>
                 <div className="flex gap-5 max-md:gap-[0.9375rem]">
-                  {Logo_data.map((d, i) => <Logo key={i} d={d} styles={Logo_styles[i]} />)}
+                  {SOCIAL.map((s) => (
+                    <a key={s.href} className="w-10 h-10 flex rounded-[100%] justify-center items-center bg-color-006 cursor-pointer" href={s.href} target="_blank" rel="noopener noreferrer" aria-label={s.label}>
+                      <img className="w-4 h-4 block object-contain" src={s.icon} alt="" width="16" height="16" />
+                    </a>
+                  ))}
                 </div>
               </div>
               <div className="flex max-w-[19.6875rem] flex-col items-start flex-1 max-md:max-w-none">

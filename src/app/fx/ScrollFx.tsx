@@ -177,6 +177,72 @@ export default function ScrollFx() {
       }
     }
 
+    // Home service cards below lg. The section only pins on desktop, so the scroll-driven step
+    // above never runs there and the row sat at the capture's frozen offset: the first card off
+    // screen, the second cut in half, descriptions faded out. Turn it into a strip that can be
+    // swiped, snaps card by card, and advances on its own while nobody is touching it.
+    const cardRow = document.querySelector<HTMLElement>('[data-ditto-id="style-div-62"]');
+    const cardStrip = cardRow?.parentElement;
+    if (cardRow && cardStrip) {
+      const narrow = window.matchMedia("(max-width: 1024px)");
+      const calm = window.matchMedia("(prefers-reduced-motion: reduce)");
+      const unfaded: HTMLElement[] = [];
+      let timer: number | undefined;
+      let resumeAt = 0;
+      const hold = () => { resumeAt = Date.now() + 6000; };
+
+      const advance = () => {
+        if (Date.now() < resumeAt || document.hidden) return;
+        const r = cardStrip.getBoundingClientRect();
+        if (r.bottom < 0 || r.top > window.innerHeight) return;
+        const first = cardRow.firstElementChild as HTMLElement | null;
+        if (!first) return;
+        const step = first.offsetWidth;
+        const end = cardStrip.scrollWidth - cardStrip.clientWidth - 2;
+        const next = cardStrip.scrollLeft + step > end ? 0 : cardStrip.scrollLeft + step;
+        cardStrip.scrollTo({ left: next, behavior: "smooth" });
+      };
+
+      const enable = () => {
+        cardStrip.classList.add("fx-cards-strip");
+        cardRow.style.marginLeft = "0";
+        for (const card of Array.from(cardRow.children) as HTMLElement[]) {
+          card.style.transform = "none";
+          card.style.scrollSnapAlign = "center";
+          for (const el of Array.from(card.querySelectorAll<HTMLElement>("*"))) {
+            if (+getComputedStyle(el).opacity < 1) {
+              el.style.opacity = "1";
+              unfaded.push(el);
+            }
+          }
+        }
+        cardStrip.scrollLeft = 0;
+        if (!calm.matches && timer === undefined) timer = window.setInterval(advance, 3500);
+      };
+      const disable = () => {
+        cardStrip.classList.remove("fx-cards-strip");
+        cardRow.style.marginLeft = "";
+        for (const card of Array.from(cardRow.children) as HTMLElement[]) {
+          card.style.transform = "";
+          card.style.scrollSnapAlign = "";
+        }
+        for (const el of unfaded.splice(0)) el.style.opacity = "";
+        if (timer !== undefined) { window.clearInterval(timer); timer = undefined; }
+      };
+      const sync = () => (narrow.matches ? enable() : disable());
+
+      sync();
+      narrow.addEventListener("change", sync);
+      for (const ev of ["pointerdown", "touchstart", "wheel"]) {
+        cardStrip.addEventListener(ev, hold, { passive: true });
+      }
+      cleanups.push(() => {
+        narrow.removeEventListener("change", sync);
+        for (const ev of ["pointerdown", "touchstart", "wheel"]) cardStrip.removeEventListener(ev, hold);
+        disable();
+      });
+    }
+
     // "Why patients choose" image stack: four images share one frame, each clipped by an
     // absolutely-positioned overflow-hidden wrap. On the live site the wraps collapse
     // 474px -> 0 in sequence as the section scrolls through — each wipe spans ~40% of an
