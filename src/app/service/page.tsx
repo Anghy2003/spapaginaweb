@@ -23,9 +23,17 @@ const MediaTile_data = [
     { text: "Evaluación fisioterapéutica", description: "El punto de partida: valoramos tu caso y definimos el plan", alt: "Evaluación fisioterapéutica", imgSrc: "/assets/fotos/terapia-manual.webp" },
     { text: "Terapia para dolor muscular y articular", description: "Alivio del dolor y la tensión con técnicas manuales y aparatología", alt: "Terapia para dolor muscular", imgSrc: "/assets/fotos/masaje-terapeutico.webp" },
     { text: "Rehabilitación de lesiones y postoperatoria", description: "Recupera movilidad y fuerza tras una lesión o una cirugía", alt: "Rehabilitación", imgSrc: "/assets/fotos/rehabilitacion.webp" },
-    { text: "Masoterapia y masajes", description: "Masajes relajantes, deportivos y terapéuticos", alt: "Masaje relajante", imgSrc: "/assets/fotos/masaje-relajante.webp" },
-    { text: "Estética facial", description: "Limpieza profunda y tratamientos para acné, manchas, arrugas y flacidez", alt: "Tratamiento facial", imgSrc: "/assets/fotos/tratamiento-facial.webp" },
-    { text: "Estética corporal", description: "Maderoterapia, mesoterapia, reducción de medidas y moldeamiento", alt: "service service card six", imgSrc: "/assets/cloned/images/7095b493bb44.webp" }
+    { text: "Electroterapia y ultrasonido", description: "Aparatología para aliviar el dolor y acelerar la recuperación", alt: "Electroterapia", imgSrc: "/assets/fotos/electroterapia.webp" },
+    { text: "Ejercicios terapéuticos", description: "Ejercicios guiados y rehabilitación funcional para recuperar fuerza y movilidad", alt: "Ejercicios terapéuticos", imgSrc: "/assets/fotos/ejercicios-terapeuticos.webp" },
+    { text: "Masoterapia y masajes", description: "Masajes relajantes, deportivos y terapéuticos", alt: "Masaje relajante", imgSrc: "/assets/fotos/masaje-relajante.webp" }
+];
+const MediaTileCosmo_data = [
+    { text: "Limpieza facial profunda", description: "Limpieza, extracción e hidratación para una piel sana y luminosa", alt: "Limpieza facial profunda", imgSrc: "/assets/fotos/tratamiento-facial.webp" },
+    { text: "Tratamientos faciales", description: "Acné, deshidratación, manchas, arrugas y flacidez", alt: "Tratamiento facial para acné", imgSrc: "/assets/fotos/tratamiento-acne.webp" },
+    { text: "Extracción de lunares y verrugas", description: "Procedimiento seguro, siempre con valoración previa", alt: "Extracción de lunares y verrugas", imgSrc: "/assets/cloned/images/1c90136a435f.webp" },
+    { text: "Reducción de papada y ojeras", description: "Tratamientos localizados para papada y ojeras", alt: "Tratamiento para ojeras", imgSrc: "/assets/cloned/images/1ad9e0ab88ef.webp" },
+    { text: "Reducción de medidas y maderoterapia", description: "Maderoterapia, tonificación (flacidez) y moldeamiento corporal", alt: "Maderoterapia", imgSrc: "/assets/cloned/images/7095b493bb44.webp" },
+    { text: "Mesoterapia y alopecia", description: "Mesoterapia facial y corporal, y tratamiento para la alopecia", alt: "Mesoterapia", imgSrc: "/assets/fotos/mesoterapia-facial.webp" }
 ];
 const MediaTile2_data = [
     { href: "/contact", imgSrc: "/assets/fotos/antiedad-antes-despues.webp", href2: "/contact", label: "Sueros y vitaminas antiedad ", href3: "/contact" },
@@ -227,12 +235,37 @@ export default function Page() {
               </div>
               <div className="w-full max-w-213 block" data-ditto-id="style-div-9">
                 <h2 className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]" data-ditto-id="style-div-52" data-component="heading">
-                  Centro de fisioterapia y estética con soluciones profesionales
+                  Fisioterapia y cosmetología con soluciones profesionales
                 </h2>
               </div>
             </div>
+            <div className="flex self-stretch mb-7.5 flex-col items-start gap-3 text-left max-lg:mb-5">
+              <div className="flex justify-start items-center gap-[0.4rem]">
+                <div className="w-[0.3125rem] h-[0.3125rem] block bg-color-004" />
+                <div className="block text-color-001 text-lg leading-[1.75rem] tracking-[-0.54px] max-md:leading-[1.5625rem]">
+                  Fisioterapia
+                </div>
+              </div>
+              <h3 className="block text-color-001 text-3xl font-semibold leading-9 tracking-[-0.6px] max-md:text-[1.375rem] max-md:leading-[1.625rem]">
+                Para aliviar el dolor, recuperar la movilidad y mejorar la función física
+              </h3>
+            </div>
             <div className="grid self-stretch gap-7.5 [grid-auto-columns:1fr] grid-cols-2 max-lg:gap-5 max-md:grid-cols-1" data-ditto-id="style-div-53">
               {MediaTile_data.map((d, i) => <MediaTile key={i} d={d} styles={MediaTile_styles[i]} />)}
+            </div>
+            <div className="flex self-stretch mb-7.5 flex-col items-start gap-3 text-left mt-15 max-lg:mt-10 max-lg:mb-5">
+              <div className="flex justify-start items-center gap-[0.4rem]">
+                <div className="w-[0.3125rem] h-[0.3125rem] block bg-color-004" />
+                <div className="block text-color-001 text-lg leading-[1.75rem] tracking-[-0.54px] max-md:leading-[1.5625rem]">
+                  Cosmetología
+                </div>
+              </div>
+              <h3 className="block text-color-001 text-3xl font-semibold leading-9 tracking-[-0.6px] max-md:text-[1.375rem] max-md:leading-[1.625rem]">
+                Tratamientos faciales y corporales para cuidar tu piel y tu figura
+              </h3>
+            </div>
+            <div className="grid self-stretch gap-7.5 [grid-auto-columns:1fr] grid-cols-2 max-lg:gap-5 max-md:grid-cols-1">
+              {MediaTileCosmo_data.map((d, i) => <MediaTile key={i} d={d} styles={MediaTile_styles[i]} />)}
             </div>
           </div>
         </div>
@@ -372,7 +405,7 @@ export default function Page() {
                 <div className="flex justify-start items-center gap-[0.4rem]">
                   <div className="w-[0.3125rem] h-[0.3125rem] block bg-color-004" />
                   <div className="block text-color-001 text-lg leading-[1.75rem] tracking-[-0.54px] max-md:leading-[1.5625rem] max-md:[font-size:inherit]">
-                    Estética facial y corporal
+                    Cosmetología
                   </div>
                 </div>
                 <h3 className="block text-color-001 text-2xl font-semibold leading-[1.75rem] tracking-[-0.48px] max-md:text-xl max-md:leading-[1.4375rem]">
