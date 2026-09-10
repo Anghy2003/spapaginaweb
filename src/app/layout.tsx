@@ -159,7 +159,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                     Teresa de Ávila y Fray Luis de León (Parque Valladolid), Cuenca – Ecuador
                   </a>
                   <div className="block text-color-009">
-                    Lunes a sábado · 09:00 – 19:00
+                    Lunes a viernes · 8:30 – 12:00 y 14:00 – 17:30
                   </div>
                 </div>
                 <div className="flex gap-5 max-md:gap-[0.9375rem]">

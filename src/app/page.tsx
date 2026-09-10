@@ -502,71 +502,12 @@ export default function Page() {
                   <img className="w-full h-[16.6875rem] block max-w-full overflow-clip object-cover align-middle max-md:h-[14.5625rem] md:max-lg:h-[23.0625rem] 2xl:h-[21.0625rem]" data-component="image" alt="fondo de estadísticas" height="Auto" sizes="(max-width: 479px) 96vw, (max-width: 767px) 49vw, 330px" src="/assets/cloned/images/fdf71674e8b9.webp" srcSet="/assets/cloned/images/957759cf5989.webp 500w, /assets/cloned/images/8a326eb2a3d3.webp 800w, /assets/cloned/images/fdf71674e8b9.webp 1006w" width="330" />
                   <div className="h-full flex absolute top-0 inset-x-0 min-w-0 justify-start items-end bg-clr-5">
                     <div className="flex pb-[1.5625rem] px-7.5 justify-start items-center gap-5 max-lg:px-5 max-lg:gap-[0.9375rem]">
-                      <div className="flex items-start overflow-hidden">
-                        <div className="h-[3.1rem] flex flex-col items-start">
-                          <div className="flex flex-col items-start gap-2.5 transform-[matrix(1,0,0,1,0,-290)] max-lg:transform-[matrix(1,0,0,1,0,-250)] max-lg:gap-[initial] 2xl:justify-center">
-                            <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
-                              0
-                            </div>
-                            <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
-                              1
-                            </div>
-                            <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]" data-ditto-id="style-div-69">
-                              2
-                            </div>
-                            <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
-                              3
-                            </div>
-                            <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
-                              4
-                            </div>
-                          </div>
-                          <div className="flex flex-col items-start gap-2.5 transform-[matrix(1,0,0,1,0,-290)] max-lg:transform-[matrix(1,0,0,1,0,-250)] max-lg:gap-[initial] 2xl:justify-center">
-                            <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
-                              5
-                            </div>
-                            <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
-                              1
-                            </div>
-                            <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
-                              2
-                            </div>
-                            <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
-                              3
-                            </div>
-                            <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
-                              4
-                            </div>
-                          </div>
+                      <div className="flex items-start">
+                        <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
+                          300
                         </div>
-                        <div className="h-[3.1rem] flex flex-col items-start">
-                          <div className="flex flex-col items-start gap-2.5 transform-[matrix(1,0,0,1,0,-170)] max-lg:transform-[matrix(1,0,0,1,0,-150)] max-lg:gap-[initial] 2xl:justify-center">
-                            <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
-                              0
-                            </div>
-                            <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
-                              1
-                            </div>
-                            <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
-                              2
-                            </div>
-                          </div>
-                          <div className="flex flex-col items-start gap-2.5 transform-[matrix(1,0,0,1,0,-170)] max-lg:transform-[matrix(1,0,0,1,0,-150)] max-lg:gap-[initial] 2xl:justify-center">
-                            <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
-                              3
-                            </div>
-                            <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
-                              1
-                            </div>
-                            <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]" data-ditto-id="style-div-63">
-                              2
-                            </div>
-                          </div>
-                        </div>
-                        <div className="h-[3.1rem] flex flex-col items-start">
-                          <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
-                            k
-                          </div>
+                        <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
+                          +
                         </div>
                       </div>
                       <div className="block max-w-29.5 max-lg:flex-1">
@@ -584,113 +525,15 @@ export default function Page() {
                         <img className="w-full h-[1.4375rem] block max-w-full overflow-clip object-cover aspect-[auto_21/21] align-middle" data-component="image" alt="" height="21" src="/assets/cloned/svg/5e30b6944dae.svg" width="21" />
                       </div>
                     </div>
-                    <div className="flex items-start overflow-hidden">
-                      <div className="h-[3.1rem] flex flex-col items-start">
-                        <div className="flex flex-col items-start gap-2.5 transform-[matrix(1,0,0,1,0,-472.484)] max-lg:transform-[matrix(1,0,0,1,0,-435.656)] max-lg:gap-[initial] 2xl:justify-center">
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            0
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            1
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            2
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            3
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            4
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            5
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            6
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            7
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            8
-                          </div>
-                        </div>
-                        <div className="flex flex-col items-start gap-2.5 transform-[matrix(1,0,0,1,0,-472.484)] max-lg:transform-[matrix(1,0,0,1,0,-435.656)] max-lg:gap-[initial] 2xl:justify-center">
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            9
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            1
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            2
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]" data-ditto-id="style-div-70">
-                            3
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            4
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            5
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            6
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]" data-ditto-id="style-div-71">
-                            7
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            8
-                          </div>
-                        </div>
-                      </div>
-                      <div className="h-[3.1rem] flex flex-col items-start">
-                        <div className="flex flex-col items-start gap-2.5 transform-[matrix(1,0,0,1,0,-258.047)] max-lg:transform-[matrix(1,0,0,1,0,-242.031)] max-lg:gap-[initial] 2xl:justify-center">
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            0
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]" data-ditto-id="style-div-72">
-                            1
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            2
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            3
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            4
-                          </div>
-                        </div>
-                        <div className="flex flex-col items-start gap-2.5 transform-[matrix(1,0,0,1,0,-258.047)] max-lg:transform-[matrix(1,0,0,1,0,-242.031)] max-lg:gap-[initial] 2xl:justify-center">
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            5
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            1
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            2
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            3
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            4
-                          </div>
-                        </div>
-                      </div>
-                      <div className="h-[3.1rem] flex flex-col items-start">
-                        <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                          %
-                        </div>
+                    <div className="flex items-start">
+                      <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
+                        5
                       </div>
                     </div>
                   </div>
                   <div className="w-full max-w-[20.1875rem] block self-stretch">
                     <p className="block -mb-[0.4rem] text-color-001 max-lg:-mb-[0.1rem]">
-                      Tratamientos con respaldo clínico y resultados duraderos
+                      Días de atención a la semana
                     </p>
                   </div>
                 </div>
@@ -701,95 +544,15 @@ export default function Page() {
                         <img className="w-full h-[1.1875rem] block max-w-full overflow-clip object-cover aspect-[auto_19/19] align-middle" data-component="image" alt="" height="19" src="/assets/cloned/svg/d73573491fdc.svg" width="19" />
                       </div>
                     </div>
-                    <div className="flex items-start overflow-hidden">
-                      <div className="h-[3.1rem] flex flex-col items-start">
-                        <div className="flex flex-col items-start gap-2.5 transform-[matrix(1,0,0,1,0,-150.828)] max-lg:transform-[matrix(1,0,0,1,0,-145.219)] max-lg:gap-[initial] 2xl:justify-center">
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            0
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            1
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            2
-                          </div>
-                        </div>
-                        <div className="flex flex-col items-start gap-2.5 transform-[matrix(1,0,0,1,0,-150.828)] max-lg:transform-[matrix(1,0,0,1,0,-145.219)] max-lg:gap-[initial] 2xl:justify-center">
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            3
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            1
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            2
-                          </div>
-                        </div>
-                      </div>
-                      <div className="h-[3.1rem] flex flex-col items-start">
-                        <div className="flex flex-col items-start gap-2.5 transform-[matrix(1,0,0,1,0,-418.875)] max-lg:transform-[matrix(1,0,0,1,0,-387.25)] max-lg:gap-[initial] 2xl:justify-center">
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            0
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            1
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            2
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            3
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            4
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            5
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            6
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            7
-                          </div>
-                        </div>
-                        <div className="flex flex-col items-start gap-2.5 transform-[matrix(1,0,0,1,0,-418.875)] max-lg:transform-[matrix(1,0,0,1,0,-387.25)] max-lg:gap-[initial] 2xl:justify-center">
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            8
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            1
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            2
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            3
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            4
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            5
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            6
-                          </div>
-                          <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                            7
-                          </div>
-                        </div>
-                      </div>
-                      <div className="h-[3.1rem] flex flex-col items-start">
-                        <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                          k
-                        </div>
+                    <div className="flex items-start">
+                      <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
+                        24
                       </div>
                     </div>
                   </div>
                   <div className="w-full max-w-[20.1875rem] block self-stretch">
                     <p className="block -mb-[0.4rem] text-color-001 max-lg:-mb-[0.1rem]">
-                      Tratamientos avanzados para tu bienestar integral
+                      Tratamientos en un solo lugar
                     </p>
                   </div>
                 </div>
@@ -904,65 +667,12 @@ export default function Page() {
                 <div className="w-full flex py-7.5 px-10 rounded-[10px] flex-col items-start gap-[2.1875rem] bg-surface-5 max-md:px-5">
                   <div className="flex max-w-36.5 flex-col items-start gap-2.5">
                     <div className="flex justify-start items-center gap-2.5">
-                      <div className="flex items-start overflow-hidden">
-                        <div className="h-12 flex flex-col items-start max-md:h-[1.8rem] md:max-lg:h-[2.1rem]">
-                          <div className="flex flex-col items-start gap-2.5 transform-[matrix(1,0,0,1,0,-105.75)] max-md:transform-[matrix(1,0,0,1,0,-57)] max-lg:gap-[initial] md:max-lg:transform-[matrix(1,0,0,1,0,-68.4062)] 2xl:justify-center">
-                            <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                              0
-                            </div>
-                            <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                              1
-                            </div>
-                          </div>
-                          <div className="flex flex-col items-start gap-2.5 transform-[matrix(1,0,0,1,0,-105.75)] max-md:transform-[matrix(1,0,0,1,0,-57)] max-lg:gap-[initial] md:max-lg:transform-[matrix(1,0,0,1,0,-68.4062)] 2xl:justify-center">
-                            <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                              2
-                            </div>
-                            <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                              1
-                            </div>
-                          </div>
+                      <div className="flex items-start">
+                        <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
+                          6
                         </div>
-                        <div className="h-12 flex flex-col items-start max-md:h-[1.8rem] md:max-lg:h-[2.1rem]">
-                          <div className="flex flex-col items-start gap-2.5 transform-[matrix(1,0,0,1,0,-279.375)] max-md:transform-[matrix(1,0,0,1,0,-142.5)] max-lg:gap-[initial] md:max-lg:transform-[matrix(1,0,0,1,0,-171.016)] 2xl:justify-center">
-                            <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                              0
-                            </div>
-                            <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                              1
-                            </div>
-                            <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                              2
-                            </div>
-                            <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                              3
-                            </div>
-                            <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                              4
-                            </div>
-                          </div>
-                          <div className="flex flex-col items-start gap-2.5 transform-[matrix(1,0,0,1,0,-279.375)] max-md:transform-[matrix(1,0,0,1,0,-142.5)] max-lg:gap-[initial] md:max-lg:transform-[matrix(1,0,0,1,0,-171.016)] 2xl:justify-center">
-                            <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                              5
-                            </div>
-                            <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                              1
-                            </div>
-                            <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                              2
-                            </div>
-                            <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                              3
-                            </div>
-                            <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                              4
-                            </div>
-                          </div>
-                        </div>
-                        <div className="h-12 flex flex-col items-start max-md:h-[1.8rem] md:max-lg:h-[2.1rem]">
-                          <div className="h-full block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                            +
-                          </div>
+                        <div className="h-full block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
+                          +
                         </div>
                       </div>
                       <div className="block -mb-1">
@@ -1080,7 +790,7 @@ export default function Page() {
                     {Logo3_data.map((d, i) => <Logo3 key={i} d={d} styles={Logo3_styles[i]} />)}
                   </div>
                   <div className="block -mb-[0.4rem] text-color-001 max-lg:-mb-[0.1rem]">
-                    Cientos de pacientes satisfechas
+                    Más de 300 pacientes satisfechas
                   </div>
                 </div>
                 <div className="w-full flex pt-10 pb-7.5 px-7 rounded-[10px] justify-start items-center gap-2.5 bg-surface-5 max-lg:pt-7.5 max-lg:px-5 max-md:flex-wrap max-md:gap-[0.4rem]">

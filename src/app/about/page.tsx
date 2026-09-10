@@ -53,7 +53,7 @@ const Logo3_data = [
 ];
 const MediaTile3_data = [
     { alt: "Fachada de Medical Livesthetic Fisiospa", height: "687", imgSrc: "/assets/brand/local.jpg", text: "Nuestra sede", text2: "Teresa de Ávila y Fray Luis de León", text3: "Parque Valladolid, Cuenca – Ecuador" },
-    { alt: "about where you find two", height: "114", imgSrc: "/assets/cloned/images/b364eff3863e.webp", text: "Horario de atención", text2: "Lunes a sábado", text3: "09:00 – 19:00" },
+    { alt: "about where you find two", height: "114", imgSrc: "/assets/cloned/images/b364eff3863e.webp", text: "Horario de atención", text2: "Lunes a viernes", text3: "8:30 – 12:00 y 14:00 – 17:30" },
     { alt: "about where you find us three", height: "114", imgSrc: "/assets/cloned/images/975919161932.webp", text: "WhatsApp y llamadas", text2: "+593 97 989 8964", text3: "Agenda tu cita" },
     { alt: "about where you find us four", height: "114", imgSrc: "/assets/cloned/images/1a996c68c9a9.webp", text: "Correo electrónico", text2: "medicallivesthetic@gmail.com", text3: "Consultas e información" }
 ];
@@ -260,171 +260,31 @@ export default function Page() {
                 <div className="flex justify-center gap-13.5 max-md:gap-5 md:max-lg:gap-10" data-ditto-id="style-div-24">
                   <div className="flex relative max-w-65 flex-col justify-start items-center flex-1 text-center" data-ditto-id="style-div-11">
                     <div className="flex items-start">
-                      <div className="h-16 flex overflow-hidden max-md:h-[2.4rem] md:max-lg:h-[2.7rem]">
-                        <div className="flex flex-col gap-2.5 max-lg:block max-lg:[flex-direction:initial] max-lg:gap-[initial]" data-ditto-id="style-div-44">
-                          <div className="flex flex-col gap-2.5 transform-[matrix(1,0,0,1,0,-137.188)] max-lg:block max-md:transform-[matrix(1,0,0,1,0,-74.1875)] max-lg:[flex-direction:initial] max-lg:gap-[initial] md:max-lg:transform-[matrix(1,0,0,1,0,-84.8125)] 2xl:justify-center" data-ditto-id="style-div-45">
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-46">
-                              0
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-12">
-                              1
-                            </div>
-                          </div>
-                          <div className="flex flex-col gap-2.5 transform-[matrix(1,0,0,1,0,-137.188)] max-lg:block max-md:transform-[matrix(1,0,0,1,0,-74.1875)] max-lg:[flex-direction:initial] max-lg:gap-[initial] md:max-lg:transform-[matrix(1,0,0,1,0,-84.8125)] 2xl:justify-center" data-ditto-id="style-div-47">
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-48">
-                              2
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-49">
-                              1
-                            </div>
-                          </div>
-                        </div>
-                        <div className="flex flex-col gap-2.5 max-lg:block max-lg:[flex-direction:initial] max-lg:gap-[initial]" data-ditto-id="style-div-50">
-                          <div className="flex flex-col gap-2.5 transform-[matrix(1,0,0,1,0,-357.969)] max-lg:block max-md:transform-[matrix(1,0,0,1,0,-185.469)] max-lg:[flex-direction:initial] max-lg:gap-[initial] md:max-lg:transform-[matrix(1,0,0,1,0,-212.031)] 2xl:justify-center" data-ditto-id="style-div-51">
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-9">
-                              0
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-52">
-                              1
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-53">
-                              2
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-54">
-                              3
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-55">
-                              4
-                            </div>
-                          </div>
-                          <div className="flex flex-col gap-2.5 transform-[matrix(1,0,0,1,0,-357.969)] max-lg:block max-md:transform-[matrix(1,0,0,1,0,-185.469)] max-lg:[flex-direction:initial] max-lg:gap-[initial] md:max-lg:transform-[matrix(1,0,0,1,0,-212.031)] 2xl:justify-center" data-ditto-id="style-div-56">
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-57">
-                              5
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-58">
-                              1
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-59">
-                              2
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-60">
-                              3
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-61">
-                              4
-                            </div>
-                          </div>
-                        </div>
+                      <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
+                        6
                       </div>
-                      <div className="block -mt-[0.4rem] max-md:-mt-[0.1rem] md:max-lg:-mt-[0.3125rem]">
-                        <div className="block text-color-004 [font-family:Merriweather,_serif] text-3xl leading-10 max-md:text-[1.375rem] max-md:leading-[1.8125rem] md:max-lg:text-[1.625rem] md:max-lg:leading-[2.1875rem]">
-                          +
-                        </div>
+                      <div className="block text-color-004 [font-family:Merriweather,_serif] text-3xl leading-10 max-md:text-[1.375rem] max-md:leading-[1.8125rem] md:max-lg:text-[1.625rem] md:max-lg:leading-[2.1875rem]">
+                        +
                       </div>
                     </div>
                     <div className="w-full h-full block mt-5 mb-7 bg-border max-lg:mt-2.5 max-lg:mb-[1.4375rem]" />
                     <div className="w-full max-w-57.5 block text-color-001 text-lg font-medium leading-6 tracking-[-0.36px] max-lg:text-[1.0625rem] max-lg:leading-[1.4375rem]">
-                      Tratamiento para alopecia
+                      Años de experiencia
                     </div>
                   </div>
                   <div className="w-px block self-stretch bg-border max-md:hidden" />
                   <div className="flex relative max-w-65 flex-col justify-start items-center flex-1 text-center">
-                    <div className="flex">
-                      <div className="h-16 flex overflow-hidden max-md:h-[2.4rem] md:max-lg:h-[2.7rem]">
-                        <div className="flex flex-col gap-2.5 max-lg:block max-lg:[flex-direction:initial] max-lg:gap-[initial]">
-                          <div className="flex flex-col gap-2.5 transform-[matrix(1,0,0,1,0,-652.344)] max-lg:block max-md:transform-[matrix(1,0,0,1,0,-333.844)] max-lg:[flex-direction:initial] max-lg:gap-[initial] md:max-lg:transform-[matrix(1,0,0,1,0,-381.656)] 2xl:justify-center" data-ditto-id="style-div-21">
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              0
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              1
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              2
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              3
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              4
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-62">
-                              5
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-14">
-                              6
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              7
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              8
-                            </div>
-                          </div>
-                          <div className="flex flex-col gap-2.5 transform-[matrix(1,0,0,1,0,-652.344)] max-lg:block max-md:transform-[matrix(1,0,0,1,0,-333.844)] max-lg:[flex-direction:initial] max-lg:gap-[initial] md:max-lg:transform-[matrix(1,0,0,1,0,-381.656)] 2xl:justify-center">
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              9
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              1
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              2
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              3
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              4
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              5
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              6
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              7
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              8
-                            </div>
-                          </div>
-                        </div>
-                        <div className="flex flex-col gap-2.5 max-lg:block max-lg:[flex-direction:initial] max-lg:gap-[initial]">
-                          <div className="flex flex-col gap-2.5 transform-[matrix(1,0,0,1,0,-210.781)] max-lg:block max-md:transform-[matrix(1,0,0,1,0,-111.281)] max-lg:[flex-direction:initial] max-lg:gap-[initial] md:max-lg:transform-[matrix(1,0,0,1,0,-127.219)] 2xl:justify-center">
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              0
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              1
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              2
-                            </div>
-                          </div>
-                          <div className="flex flex-col gap-2.5 transform-[matrix(1,0,0,1,0,-210.781)] max-lg:block max-md:transform-[matrix(1,0,0,1,0,-111.281)] max-lg:[flex-direction:initial] max-lg:gap-[initial] md:max-lg:transform-[matrix(1,0,0,1,0,-127.219)] 2xl:justify-center">
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              3
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]" data-ditto-id="style-div-64">
-                              1
-                            </div>
-                            <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                              2
-                            </div>
-                          </div>
-                        </div>
+                    <div className="flex items-start">
+                      <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
+                        300
                       </div>
-                      <div className="block -mt-[0.4rem] max-md:-mt-[0.1rem] md:max-lg:-mt-[0.3125rem]" data-ditto-id="style-div-22">
-                        <div className="block text-color-004 [font-family:Merriweather,_serif] text-3xl leading-10 max-md:text-[1.375rem] max-md:leading-[1.8125rem] md:max-lg:text-[1.625rem] md:max-lg:leading-[2.1875rem]">
-                          %
-                        </div>
+                      <div className="block text-color-004 [font-family:Merriweather,_serif] text-3xl leading-10 max-md:text-[1.375rem] max-md:leading-[1.8125rem] md:max-lg:text-[1.625rem] md:max-lg:leading-[2.1875rem]">
+                        +
                       </div>
                     </div>
                     <div className="w-full h-full block mt-5 mb-7 bg-border max-lg:mt-2.5 max-lg:mb-[1.4375rem]" />
                     <div className="w-full max-w-57.5 block text-color-001 text-lg font-medium leading-6 tracking-[-0.36px] max-lg:text-[1.0625rem] max-lg:leading-[1.4375rem]">
-                      Excelente nivel de satisfacción
+                      Pacientes atendidas
                     </div>
                   </div>
                 </div>
@@ -531,7 +391,7 @@ export default function Page() {
                     </div>
                     <div className="block -mb-2 max-md:mb-0">
                       <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                        25k
+                        300+
                       </div>
                       <div className="block" data-ditto-id="style-div-72">
                         Pacientes satisfechas

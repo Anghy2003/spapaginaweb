@@ -5,7 +5,7 @@ Sitio web de **Medical Livesthetic Fisiospa** — fisioterapia y estética avanz
 - 📍 Teresa de Ávila y Fray Luis de León (Parque Valladolid), Cuenca – Ecuador
 - 📲 +593 97 989 8964
 - ✉️ medicallivesthetic@gmail.com
-- 🕘 Lunes a sábado · 09:00 – 19:00
+- 🕘 Lunes a viernes · 8:30 – 12:00 y 14:00 – 17:30
 
 ## Cómo correrlo
 
@@ -53,7 +53,5 @@ node scripts/build-spa-videos.js     # spa/*.mp4 -> public/assets/spa/ (marca de
 
 Contenido de ejemplo que hay que reemplazar por datos reales:
 
-- Los contadores animados (25k+ pacientes, 98 %, 12+ años) vienen de la plantilla original
 - Los dos testimonios son de muestra
-- El horario de atención está puesto por referencia, falta confirmarlo
 - Los enlaces de Facebook e Instagram son genéricos
