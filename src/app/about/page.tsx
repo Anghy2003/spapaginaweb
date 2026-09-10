@@ -204,7 +204,7 @@ export default function Page() {
                         <img className="w-full h-[0.9375rem] block max-w-full overflow-clip object-cover aspect-[auto_15/15] align-middle max-md:h-[0.6875rem]" data-ditto-id="style-image-2" data-component="image" alt="" height="15" src="/assets/cloned/svg/832f5bfbbd5a.svg" width="15" />
                       </div>
                       <div className="block justify-center items-center text-background text-lg font-medium leading-6 tracking-[-0.36px] max-lg:text-[1.0625rem] max-lg:leading-[1.4375rem]" data-ditto-id="style-div-31">
-                        Soluciones completas de fisioterapia y estética
+                        Soluciones completas de Fisioterapia y Estética
                       </div>
                     </div>
                   </div>

@@ -25,7 +25,7 @@ const MediaTile_data = [
     { alt: "Tratamiento antiedad", imgSrc: "/assets/fotos/antiedad-antes-despues.webp", text: "Sueros y vitaminas antiedad", description: "Sueros y vitaminas antiedad que hidratan, aportan energía y ayudan a mantener una piel firme y luminosa." },
     { alt: "Evaluación fisioterapéutica", imgSrc: "/assets/fotos/terapia-manual.webp", kind: "image", text: "Evaluación fisioterapéutica", description: "Toda sesión empieza con una evaluación fisioterapéutica para diseñar el tratamiento que tu cuerpo necesita." },
     { alt: "Limpieza facial profunda", imgSrc: "/assets/fotos/tratamiento-facial.webp", kind: "image", text: "Limpieza facial profunda", description: "Limpieza facial profunda que purifica, hidrata y mejora la textura y luminosidad natural de tu piel." },
-    { alt: "Fisioterapeuta con paciente", imgSrc: "/assets/fotos/ejercicios-terapeuticos.webp", kind: "image", text: "Profesionales certificados", description: "Formación en fisioterapia y estética, con protocolos seguros y atención personalizada." },
+    { alt: "Fisioterapeuta con paciente", imgSrc: "/assets/fotos/ejercicios-terapeuticos.webp", kind: "image", text: "Profesionales certificados", description: "Formación en Fisioterapia y Estética, con protocolos seguros y atención personalizada." },
     { alt: "Electroterapia", imgSrc: "/assets/fotos/electroterapia.webp", kind: "image", text: "Electroterapia y ultrasonido", description: "Electroterapia y ultrasonido terapéutico para acelerar la recuperación y potenciar los resultados de cada sesión." },
     { alt: "Tratamiento de acné", imgSrc: "/assets/fotos/tratamiento-acne.webp", kind: "image", text: "Tratamiento de acné y manchas", description: "Protocolos dirigidos a controlar el acné, atenuar manchas y devolver a tu piel una apariencia más limpia y uniforme." },
     { alt: "Tratamiento antiedad", imgSrc: "/assets/fotos/antiedad-antes-despues.webp", text: "Sueros y vitaminas antiedad", description: "Sueros y vitaminas antiedad que hidratan, aportan energía y ayudan a mantener una piel firme y luminosa." }
@@ -472,7 +472,7 @@ export default function Page() {
                 </div>
                 <div className="block mb-[1.5625rem] max-lg:mb-[0.9375rem]">
                   <h2 className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]" data-ditto-id="style-div-68" data-component="heading">
-                    {"Fisioterapia y estética avanzada, con atención profesional y personalizada."}
+                    {"Fisioterapia y Estética avanzada, con atención profesional y personalizada."}
                   </h2>
                 </div>
                 <div className="block mb-7.5 max-lg:mb-5">
@@ -659,7 +659,7 @@ export default function Page() {
                 </div>
               </div>
               <h2 className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]" data-component="heading">
-                Fisioterapia y estética para un cuerpo sano
+                Fisioterapia y Estética para un cuerpo sano
               </h2>
             </div>
             <div className="flex justify-between items-start self-stretch gap-7.5 max-lg:grid max-lg:gap-5 max-lg:[grid-auto-columns:1fr] max-lg:grid-cols-[repeat(auto-fit,_minmax(344px,_1fr))]">
@@ -689,7 +689,7 @@ export default function Page() {
                     <div className="flex justify-start items-center gap-2.5">
                       <div className="w-[0.1875rem] h-[0.1875rem] block rounded-[100%] bg-color-001" />
                       <div className="block">
-                        Servicios profesionales de fisioterapia y estética
+                        Servicios profesionales de Fisioterapia y Estética
                       </div>
                     </div>
                     <div className="w-full h-px block bg-color-007" />

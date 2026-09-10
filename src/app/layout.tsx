@@ -9,7 +9,7 @@ import HeaderNav from "./HeaderNav";
 import FooterNav from "./FooterNav";
 import { SOCIAL } from "../lib/social";
 
-const SITE_TITLE = "Medical Livesthetic Fisiospa | Fisioterapia y estética avanzada en Cuenca";
+const SITE_TITLE = "Medical Livesthetic Fisiospa | Fisioterapia y Estética avanzada en Cuenca";
 const SITE_DESCRIPTION = "Estética avanzada + fisioterapia profesional en un solo lugar. Masajes terapéuticos y relajantes, tratamientos faciales y corporales, y fisioterapia para dolor, tensión y rehabilitación. Agenda tu cita al +593 97 989 8964.";
 
 export const metadata = {
@@ -86,7 +86,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               <div className="flex max-w-89 flex-col items-start flex-1 gap-12 max-md:justify-between max-md:items-stretch max-md:gap-5 max-md:col-start-[span_1] max-md:col-end-[span_1] max-md:row-start-[span_1] max-md:row-end-[span_1] max-md:max-w-none" id="w-node-_937d82fc-97ac-1f4a-bf89-93128e7cf594-8e7cf591">
                 <div className="block max-w-[21.4375rem] max-md:flex-1 max-md:max-w-none">
                   <div className="block text-background text-2xl font-semibold leading-[1.75rem] tracking-[-0.48px] max-md:text-xl max-md:leading-[1.4375rem] md:max-lg:text-[1.375rem] md:max-lg:leading-[1.625rem]">
-                    Recibe asesoría profesional en fisioterapia y estética
+                    Recibe asesoría profesional en Fisioterapia y Estética
                   </div>
                 </div>
                 <div className="w-full block max-w-[17.6875rem] max-md:flex-1 max-md:max-w-none">
