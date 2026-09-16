@@ -39,6 +39,8 @@ npm run build
 | Videos de la galería (títulos y orden) | `src/app/case-study/VideoGallery.tsx` |
 | Mensaje que arma el formulario | `src/app/contact/WhatsAppForm.tsx` |
 | Colores de marca | `src/app/globals.css` |
+| Lista de servicios en tarjetas (planes) | `src/app/service/page.tsx` (`PLANS`) |
+| Banda de paquetes VIP y redes | `src/app/components/VipPackages.tsx` |
 
 ## Scripts de assets
 
@@ -54,3 +56,4 @@ node scripts/build-spa-videos.js     # spa/*.mp4 -> public/assets/spa/ (marca de
 Contenido de ejemplo que hay que reemplazar por datos reales:
 
 - Los dos testimonios son de muestra
+- El inicio dice "6 días de atención a la semana" (corrección del cliente) pero el horario publicado es de lunes a viernes: falta confirmar el horario del sábado

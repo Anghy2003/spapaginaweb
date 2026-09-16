@@ -61,7 +61,7 @@ export default function Page() {
               <div className="flex max-w-[45.4375rem] flex-col items-start self-stretch flex-1 gap-15 max-md:justify-start max-md:gap-5 max-md:max-w-none md:max-lg:gap-10" data-ditto-id="style-image">
                 <div className="block" data-ditto-id="style-div-27">
                   <div className="block rounded-md overflow-hidden" data-ditto-id="style-div-28">
-                    <img className="w-full h-77.5 block max-w-full overflow-clip object-cover aspect-[auto_727/369] align-middle max-md:h-[10.9375rem] md:max-lg:h-45 2xl:h-[23.0625rem]" data-ditto-id="style-div-29" data-component="image" alt="Fachada de Medical Livesthetic Fisiospa en Parque Valladolid, Cuenca" height="687" src="/assets/brand/local.jpg" width="906" />
+                    <img className="w-full h-77.5 block max-w-full overflow-clip object-cover aspect-[auto_727/369] align-middle max-md:h-[10.9375rem] md:max-lg:h-45 2xl:h-[23.0625rem]" data-ditto-id="style-div-29" data-component="image" alt="Fachada de Medical Livesthetic Fisiospa en Parque Valladolid, Cuenca" height="1101" src="/assets/brand/local.jpg" width="1428" />
                   </div>
                 </div>
                 <div className="block self-stretch" data-ditto-id="style-div-30">
@@ -171,14 +171,13 @@ export default function Page() {
         <div className="block max-w-407.5 px-[0.9375rem] mx-auto before:content-['_'] before:table before:w-0 before:h-0 before:text-foreground before:text-base before:leading-7 after:content-['_'] after:table after:w-0 after:h-0 after:text-foreground after:text-base after:leading-7">
           <div className="block relative overflow-hidden max-md:flex-col max-md:[overflow-x:initial] max-md:[overflow-y:initial]">
             <div className="block rounded-md overflow-hidden max-md:aspect-[2/3]">
-              <img className="w-full h-[32.6875rem] block max-w-full overflow-clip object-cover aspect-[auto_1290/540] align-middle max-md:h-129.5 md:max-lg:h-[19.3125rem] 2xl:h-167.5" data-component="image" alt="Entrada de Medical Livesthetic Fisiospa, Parque Valladolid, Cuenca" height="687" src="/assets/brand/local.jpg" width="906" />
+              <img className="w-full h-[32.6875rem] block max-w-full overflow-clip object-cover aspect-[auto_1290/540] align-middle max-md:h-129.5 md:max-lg:h-[19.3125rem] 2xl:h-167.5" data-component="image" alt="Entrada de Medical Livesthetic Fisiospa, Parque Valladolid, Cuenca" height="1101" src="/assets/brand/local.jpg" width="1428" />
             </div>
             <div className="h-79 flex absolute right-7.5 bottom-7.5 left-237.5 z-2 p-10 rounded-md flex-col gap-6 max-lg:h-[16.5875rem] max-lg:right-4 max-lg:bottom-8 max-md:left-[6.5625rem] max-lg:p-4 md:max-lg:left-124.5 2xl:left-325" style={{ backgroundImage: "linear-gradient(var(--clr-29), var(--clr-29))" }}>
               <div className="block max-w-47.5 max-md:max-w-none">
                 <div className="h-30 block relative rounded-md overflow-hidden text-background">
-                  <video className="w-47.5 h-30 block absolute -top-30 -left-47.5 -z-100 my-30 mx-47.5 overflow-clip object-cover bg-cover [background-position:50%_50%] max-md:w-48 max-md:-left-48 max-md:mx-48" style={{ backgroundImage: "url(\"/assets/cloned/images/72b06c1691d5.jpg\")" }} autoPlay id="eea44be6-ef24-1e22-713c-bcdf67c85beb-video" loop muted playsInline poster="/assets/cloned/images/9c79f8fa3b5b.jpg">
-                    <source className="inline text-color-004 [font-family:'Times_New_Roman'] leading-4.5" data-ditto-id="style-div-21" src="/assets/cloned/videos/4836a61465c6.mp4" />
-                    <source className="inline text-color-004 [font-family:'Times_New_Roman'] leading-4.5" src="/assets/cloned/videos/209c240f795b.webm" />
+                  <video className="w-47.5 h-30 block absolute -top-30 -left-47.5 -z-100 my-30 mx-47.5 overflow-clip object-cover bg-cover [background-position:50%_50%] max-md:w-48 max-md:-left-48 max-md:mx-48" style={{ backgroundImage: "url(\"/assets/spa/limpieza-facial-profunda.jpg\")" }} autoPlay id="eea44be6-ef24-1e22-713c-bcdf67c85beb-video" loop muted playsInline poster="/assets/spa/limpieza-facial-profunda.jpg">
+                    <source className="inline text-color-004 [font-family:'Times_New_Roman'] leading-4.5" data-ditto-id="style-div-21" src="/assets/spa/limpieza-facial-profunda.mp4" />
                   </video>
                   <div className="block" aria-live="polite">
                     <button className="w-10 h-10 block absolute right-4 bottom-4 text-center cursor-pointer" data-component="button" aria-controls="eea44be6-ef24-1e22-713c-bcdf67c85beb-video" type="button">

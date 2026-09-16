@@ -14,7 +14,7 @@ const ITEMS: { q: string; a: string }[] = [
   },
   {
     q: "¿Qué tratamientos ofrecen?",
-    a: "Dos áreas que se complementan. En fisioterapia: evaluación fisioterapéutica, terapia para dolor muscular y articular, rehabilitación de lesiones, terapia postoperatoria, masoterapia, electroterapia, ultrasonido terapéutico, ejercicios terapéuticos y rehabilitación funcional. En estética facial y corporal: limpieza facial profunda, tratamientos para acné, deshidratación, manchas, arrugas y flacidez, extracción de lunares y verrugas, reducción de papada, tratamiento para ojeras, tratamiento para alopecia, reducción de medidas, tonificación, moldeamiento, maderoterapia y mesoterapia. Además aplicamos sueros y vitaminas, y masajes relajantes, deportivos y terapéuticos.",
+    a: "Dos áreas que se complementan. En fisioterapia: evaluación fisioterapéutica, terapia para dolor muscular y articular, rehabilitación de lesiones, terapia postoperatoria, masoterapia, electroterapia, ultrasonido terapéutico, ejercicios terapéuticos y rehabilitación funcional. En estética Facial y Corporal: Limpieza Facial Profunda, tratamientos para acné, deshidratación, manchas, arrugas y flacidez, extracción de lunares y verrugas, reducción de papada, tratamiento para ojeras, tratamiento para Alopecia, reducción de medidas, tonificación, moldeamiento, levantamiento de glúteos, tratamientos contra estrías y celulitis, maderoterapia y mesoterapia. Además aplicamos sueros y vitaminas, y masajes relajantes, deportivos y terapéuticos.",
   },
   {
     q: "¿Los tratamientos son seguros?",
@@ -22,7 +22,7 @@ const ITEMS: { q: string; a: string }[] = [
   },
   {
     q: "¿Cuántas sesiones necesito para ver resultados?",
-    a: "Depende del tratamiento y de tu punto de partida. En fisioterapia el alivio del dolor suele notarse desde las primeras sesiones, mientras que una recuperación completa lleva más tiempo. En estética facial y corporal se trabaja por ciclos de varias sesiones. El número exacto te lo indicamos en la valoración inicial, no antes.",
+    a: "Depende del tratamiento y de tu punto de partida. En fisioterapia el alivio del dolor suele notarse desde las primeras sesiones, mientras que una recuperación completa lleva más tiempo. En estética Facial y Corporal se trabaja por ciclos de varias sesiones. El número exacto te lo indicamos en la valoración inicial, no antes.",
   },
   {
     q: "¿Los planes son personalizados?",

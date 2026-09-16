@@ -29,14 +29,14 @@ const MediaTile_data = [
     { text: "Tonificación (flacidez)" }
 ];
 const MediaTile_data2 = [
-    { text: "Tratamiento para alopecia" },
+    { text: "Tratamiento para Alopecia" },
     { text: "Reducción de papada" },
     { text: "Tratamiento para ojeras" }
 ];
 const MediaTile2_data = [
     { text: "Maderoterapia ", text2: "y moldeamiento", alt: "service-card-flip-image", imgSrc: "/assets/cloned/images/7095b493bb44.webp", text3: "Reducción de medidas" },
-    { text: "Sueros ", text2: "y vitaminas", alt: "service-card-flip-image-2", imgSrc: "/assets/cloned/images/752adf555312.avif", text3: "Sueros y vitaminas antiedad" },
-    { text: "Estética ", text2: "facial y corporal", alt: "service service card six", imgSrc: "/assets/cloned/images/b27d237e3e61.avif", text3: "Estética facial y corporal" }
+    { text: "Sueros ", text2: "y vitaminas", alt: "Sueros y vitaminas", imgSrc: "/assets/fotos/sueros-vitaminas.webp", text3: "Sueros y vitaminas antiedad" },
+    { text: "Estética ", text2: "Facial y Corporal", alt: "service service card six", imgSrc: "/assets/cloned/images/b27d237e3e61.avif", text3: "Estética Facial y Corporal" }
 ];
 const Logo2_data = [
     { alt: "client-service-small-image", imgSrc: "/assets/cloned/images/487fa58beb46.webp" },
@@ -49,10 +49,10 @@ const Logo3_data = [
     { alt: "Rehabilitación", imgSrc: "/assets/fotos/rehabilitacion.webp" },
     { alt: "Tratamiento facial", imgSrc: "/assets/fotos/tratamiento-facial.webp" },
     { alt: "Electroterapia", imgSrc: "/assets/fotos/electroterapia.webp" },
-    { alt: "Mesoterapia facial", imgSrc: "/assets/fotos/mesoterapia-facial.webp" }
+    { alt: "Mesoterapia", imgSrc: "/assets/fotos/mesoterapia.webp" }
 ];
 const MediaTile3_data = [
-    { alt: "Fachada de Medical Livesthetic Fisiospa", height: "687", imgSrc: "/assets/brand/local.jpg", text: "Nuestra sede", text2: "Teresa de Ávila y Fray Luis de León", text3: "Parque Valladolid, Cuenca – Ecuador" },
+    { alt: "Fachada de Medical Livesthetic Fisiospa", height: "1101", imgSrc: "/assets/brand/local.jpg", text: "Nuestra sede", text2: "Teresa de Ávila y Fray Luis de León", text3: "Parque Valladolid, Cuenca – Ecuador" },
     { alt: "about where you find two", height: "114", imgSrc: "/assets/cloned/images/b364eff3863e.webp", text: "Horario de atención", text2: "Lunes a viernes", text3: "8:30 – 12:00 y 14:00 – 17:30" },
     { alt: "about where you find us three", height: "114", imgSrc: "/assets/cloned/images/975919161932.webp", text: "WhatsApp y llamadas", text2: "+593 97 989 8964", text3: "Agenda tu cita" },
     { alt: "about where you find us four", height: "114", imgSrc: "/assets/cloned/images/1a996c68c9a9.webp", text: "Correo electrónico", text2: "medicallivesthetic@gmail.com", text3: "Consultas e información" }
@@ -276,7 +276,7 @@ export default function Page() {
                   <div className="flex relative max-w-65 flex-col justify-start items-center flex-1 text-center">
                     <div className="flex items-start">
                       <div className="block text-color-001 text-6xl font-medium leading-[4rem] tracking-[-1.2px] max-md:text-[2.1875rem] max-md:leading-[2.3125rem] md:max-lg:text-[2.5rem] md:max-lg:leading-[2.625rem]">
-                        300
+                        600
                       </div>
                       <div className="block text-color-004 [font-family:Merriweather,_serif] text-3xl leading-10 max-md:text-[1.375rem] max-md:leading-[1.8125rem] md:max-lg:text-[1.625rem] md:max-lg:leading-[2.1875rem]">
                         +
@@ -284,7 +284,7 @@ export default function Page() {
                     </div>
                     <div className="w-full h-full block mt-5 mb-7 bg-border max-lg:mt-2.5 max-lg:mb-[1.4375rem]" />
                     <div className="w-full max-w-57.5 block text-color-001 text-lg font-medium leading-6 tracking-[-0.36px] max-lg:text-[1.0625rem] max-lg:leading-[1.4375rem]">
-                      Pacientes atendidas
+                      Pacientes conformes con los tratamientos
                     </div>
                   </div>
                 </div>
@@ -312,9 +312,9 @@ export default function Page() {
                     <div className="flex max-w-[28.8rem] -mt-1.5 flex-col justify-between items-start flex-1 gap-5 max-md:justify-center max-md:gap-[0.1rem] max-lg:max-w-none" data-ditto-id="style-div-65">
                       <div className="block max-lg:mb-[0.9375rem]">
                         <h3 className="block text-color-001 text-3xl font-semibold leading-9 tracking-[-0.6px] max-md:text-[1.375rem] max-md:leading-[1.625rem] md:max-lg:text-[1.625rem] md:max-lg:leading-[1.9375rem]" data-component="heading">
-                          {"Estética facial "}
+                          {"Estética Facial "}
                           <span className="inline text-foreground">
-                            y corporal
+                            y Corporal
                           </span>
                         </h3>
                       </div>
@@ -323,7 +323,7 @@ export default function Page() {
                           Qué incluye
                         </div>
                         <p className="block">
-                          Limpieza facial profunda, tratamientos faciales para acné, manchas, arrugas y flacidez, reducción de medidas, moldeamiento, maderoterapia y mesoterapia.
+                          Limpieza Facial Profunda, Tratamientos Faciales para acné, manchas, arrugas y flacidez, reducción de medidas, tonificación, moldeamiento, levantamiento de glúteos, tratamientos contra estrías y celulitis, maderoterapia y mesoterapia.
                         </p>
                       </div>
                     </div>
@@ -347,7 +347,7 @@ export default function Page() {
                         <h3 className="block text-color-001 text-3xl font-semibold leading-9 tracking-[-0.6px] max-md:text-[1.375rem] max-md:leading-[1.625rem] md:max-lg:text-[1.625rem] md:max-lg:leading-[1.9375rem]" data-component="heading">
                           {"Tratamiento "}
                           <span className="inline text-foreground">
-                            para alopecia
+                            para Alopecia
                           </span>
                         </h3>
                       </div>
@@ -391,10 +391,10 @@ export default function Page() {
                     </div>
                     <div className="block -mb-2 max-md:mb-0">
                       <div className="block text-color-001 text-[2.625rem] font-semibold leading-[3rem] tracking-[-0.84px] max-md:text-[1.5625rem] max-md:leading-[1.8125rem] md:max-lg:text-3xl md:max-lg:leading-[2.125rem]">
-                        300+
+                        600+
                       </div>
                       <div className="block" data-ditto-id="style-div-72">
-                        Pacientes satisfechas
+                        Pacientes conformes
                       </div>
                     </div>
                   </div>

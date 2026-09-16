@@ -18,17 +18,18 @@ import Logo9 from "./components/logo9";
 const Tile_data = [
     { text: "Rehabilitación funcional" },
     { text: "Maderoterapia" },
-    { text: "Mesoterapia" }
+    { text: "Mesoterapia" },
+    { text: "Cosmetología integral" }
 ];
 const MediaTile_data = [
     { alt: "Tratamiento de acné", imgSrc: "/assets/fotos/tratamiento-acne.webp", text: "Tratamiento de acné y manchas", description: "Protocolos dirigidos a controlar el acné, atenuar manchas y devolver a tu piel una apariencia más limpia y uniforme." },
-    { alt: "Tratamiento antiedad", imgSrc: "/assets/fotos/antiedad-antes-despues.webp", text: "Sueros y vitaminas antiedad", description: "Sueros y vitaminas antiedad que hidratan, aportan energía y ayudan a mantener una piel firme y luminosa." },
+    { alt: "Sueros y vitaminas", imgSrc: "/assets/fotos/sueros-vitaminas.webp", text: "Sueros y vitaminas antiedad", description: "Sueros y vitaminas antiedad que hidratan, aportan energía y ayudan a mantener una piel firme y luminosa." },
     { alt: "Evaluación fisioterapéutica", imgSrc: "/assets/fotos/terapia-manual.webp", kind: "image", text: "Evaluación fisioterapéutica", description: "Toda sesión empieza con una evaluación fisioterapéutica para diseñar el tratamiento que tu cuerpo necesita." },
     { alt: "Limpieza facial profunda", imgSrc: "/assets/fotos/tratamiento-facial.webp", kind: "image", text: "Limpieza facial profunda", description: "Limpieza facial profunda que purifica, hidrata y mejora la textura y luminosidad natural de tu piel." },
     { alt: "Fisioterapeuta con paciente", imgSrc: "/assets/fotos/ejercicios-terapeuticos.webp", kind: "image", text: "Profesionales certificados", description: "Formación en Fisioterapia y Estética, con protocolos seguros y atención personalizada." },
     { alt: "Electroterapia", imgSrc: "/assets/fotos/electroterapia.webp", kind: "image", text: "Electroterapia y ultrasonido", description: "Electroterapia y ultrasonido terapéutico para acelerar la recuperación y potenciar los resultados de cada sesión." },
     { alt: "Tratamiento de acné", imgSrc: "/assets/fotos/tratamiento-acne.webp", kind: "image", text: "Tratamiento de acné y manchas", description: "Protocolos dirigidos a controlar el acné, atenuar manchas y devolver a tu piel una apariencia más limpia y uniforme." },
-    { alt: "Tratamiento antiedad", imgSrc: "/assets/fotos/antiedad-antes-despues.webp", text: "Sueros y vitaminas antiedad", description: "Sueros y vitaminas antiedad que hidratan, aportan energía y ayudan a mantener una piel firme y luminosa." }
+    { alt: "Sueros y vitaminas", imgSrc: "/assets/fotos/sueros-vitaminas.webp", text: "Sueros y vitaminas antiedad", description: "Sueros y vitaminas antiedad que hidratan, aportan energía y ayudan a mantener una piel firme y luminosa." }
 ];
 const Tile2_data = [
     { text: "Fisioterapeutas certificados", text2: "Fisioterapeutas certificados que trabajan bajo estándares clínicos actualizados." },
@@ -46,7 +47,7 @@ const MediaTile2_data = [
     { kind: "image", alt: "Masoterapia terapéutica", imgSrc: "/assets/fotos/masaje-terapeutico.webp", text: "Masoterapia terapéutica", text2: "Alivia el dolor muscular y la tensión" },
     { kind: "image", alt: "home popular services two", imgSrc: "/assets/cloned/images/7095b493bb44.webp", text: "Maderoterapia", text2: "Moldea, tonifica y reduce medidas" },
     { kind: "image", alt: "service-image-marquee", sizes: "(max-width: 991px) 100vw, 850px", imgSrc: "/assets/cloned/images/bfd02f65e2ca.webp", srcSet: "/assets/cloned/images/fce6006a0df7.webp 500w, /assets/cloned/images/1ea60f435ff8.webp 800w, /assets/cloned/images/d7fbdd96ee35.webp 1080w, /assets/cloned/images/08bcd8fd3e04.webp 1600w, /assets/cloned/images/bfd02f65e2ca.webp 1700w", text: "Limpieza facial profunda", text2: "Limpieza profunda e hidratación inmediata" },
-    { alt: "Mesoterapia", imgSrc: "/assets/fotos/mesoterapia-facial.webp", text: "Mesoterapia", text2: "Reduce medidas y combate la flacidez" }
+    { alt: "Mesoterapia", imgSrc: "/assets/fotos/mesoterapia.webp", text: "Mesoterapia", text2: "Reduce medidas y combate la flacidez" }
 ];
 const Logo2_data = [
     { alt: "home why choose us smal image one", imgSrc: "/assets/cloned/images/8de5f0fdb59a.webp" },
@@ -79,8 +80,8 @@ const MediaTile3_data = [
     { height: "18", imgSrc: "/assets/cloned/svg/c1483f6407e4.svg", width: "18", text: "Atención personalizada e integral" }
 ];
 const MediaTile4_data = [
-    { href: "/service", imgSrc: "/assets/fotos/antiedad-antes-despues.webp", href2: "/service", label: "Sueros y vitaminas antiedad ", href3: "/service" },
-    { href: "/service", imgSrc: "/assets/cloned/images/2e20d9930768.webp", srcSet: "/assets/cloned/images/6c1b62d7ab78.webp 500w, /assets/cloned/images/18f4b5db04f9.webp 800w, /assets/cloned/images/02e1846354e0.webp 1080w, /assets/cloned/images/5bc3abf2829d.webp 1600w, /assets/cloned/images/fe0e8f26158d.webp 2000w, /assets/cloned/images/0a1f389ce5f5.webp 2600w, /assets/cloned/images/2707f429becd.webp 3200w, /assets/cloned/images/2e20d9930768.webp 3216w", href2: "/service", label: "Reducción de medidas ", href3: "/service" },
+    { href: "/service", imgSrc: "/assets/fotos/sueros-vitaminas.webp", href2: "/service", label: "Sueros y vitaminas antiedad ", href3: "/service" },
+    { href: "/service", imgSrc: "/assets/fotos/reduccion-medidas.webp", href2: "/service", label: "Reducción de medidas ", href3: "/service" },
     { href: "/service", imgSrc: "/assets/cloned/images/23fd68cba0e9.webp", srcSet: "/assets/cloned/images/78f4fefe9cb5.webp 500w, /assets/cloned/images/7fbfe5c95ebd.webp 800w, /assets/cloned/images/baa83cd82510.webp 1080w, /assets/cloned/images/45c18adf75c8.webp 1600w, /assets/cloned/images/022fdf278d6a.webp 2000w, /assets/cloned/images/9bc841dc1a54.webp 2600w, /assets/cloned/images/16793beebcd8.webp 3200w, /assets/cloned/images/23fd68cba0e9.webp 3216w", href2: "/service", label: "Extracción de lunares y verrugas ", href3: "/service" }
 ];
 const Logo8_data = [
@@ -89,7 +90,7 @@ const Logo8_data = [
     { alt: "Rehabilitación", imgSrc: "/assets/fotos/rehabilitacion.webp" },
     { alt: "Tratamiento facial", imgSrc: "/assets/fotos/tratamiento-facial.webp" },
     { alt: "Electroterapia", imgSrc: "/assets/fotos/electroterapia.webp" },
-    { alt: "Mesoterapia facial", imgSrc: "/assets/fotos/mesoterapia-facial.webp" }
+    { alt: "Mesoterapia", imgSrc: "/assets/fotos/mesoterapia.webp" }
 ];
 const Logo9_data = [
     { kind: "image", alt: "instagram-ticker-image", imgSrc: "/assets/cloned/images/b1bba367b88b.webp", srcSet: "/assets/cloned/images/96c5b7613678.webp 500w, /assets/cloned/images/b1bba367b88b.webp 600w", kind2: "link" },
@@ -504,7 +505,7 @@ export default function Page() {
                     <div className="flex pb-[1.5625rem] px-7.5 justify-start items-center gap-5 max-lg:px-5 max-lg:gap-[0.9375rem]">
                       <div className="flex items-start">
                         <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
-                          300
+                          600
                         </div>
                         <div className="block text-background text-[3.125rem] leading-12.5 tracking-[-1px]">
                           +
@@ -527,7 +528,7 @@ export default function Page() {
                     </div>
                     <div className="flex items-start">
                       <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                        5
+                        6
                       </div>
                     </div>
                   </div>
@@ -546,7 +547,7 @@ export default function Page() {
                     </div>
                     <div className="flex items-start">
                       <div className="block -mb-[0.4rem] text-color-001 text-[3.125rem] leading-12.5 tracking-[-1px] max-lg:-mb-[0.1rem]">
-                        24
+                        26
                       </div>
                     </div>
                   </div>
@@ -736,7 +737,7 @@ export default function Page() {
                 <div className="h-full flex absolute top-0 inset-x-0 pb-[2.1875rem] px-[0.9375rem] flex-col justify-end items-center gap-[0.9375rem] text-center" style={{ backgroundImage: "linear-gradient(var(--clr-11) 13%, var(--clr-12) 68%, var(--clr-13))" }}>
                   <div className="block max-w-[18.8125rem]">
                     <div className="block text-background text-2xl font-semibold leading-[1.75rem] tracking-[-0.48px]">
-                      Sueros y vitaminas antiedad
+                      Tratamientos Faciales para manchas
                     </div>
                   </div>
                   <div className="flex justify-start items-center gap-2.5">
@@ -770,7 +771,7 @@ export default function Page() {
                     </div>
                   </div>
                   <div className="w-full max-w-[18.8125rem] block mb-[1.4375rem] text-color-001 text-2xl font-semibold leading-[1.75rem] tracking-[-0.48px] max-md:text-xl max-md:leading-[1.4375rem] md:max-lg:text-[1.375rem] md:max-lg:leading-[1.625rem]">
-                    Tratamiento profesional para la alopecia
+                    Tratamiento profesional para la Alopecia
                   </div>
                   <a className="h-[2.7125rem] border border-solid border-color-003 flex relative z-0 max-w-full pt-[0.5625rem] pb-2.5 px-5 rounded-[50px] justify-center items-center gap-2.5 overflow-hidden bg-color-003 cursor-pointer" data-component="link" href="https://wa.me/593979898964" target="_blank" rel="noopener noreferrer">
                     <div className="h-[1.4rem] block relative z-1 overflow-hidden max-md:shrink-0">
@@ -790,7 +791,7 @@ export default function Page() {
                     {Logo3_data.map((d, i) => <Logo3 key={i} d={d} styles={Logo3_styles[i]} />)}
                   </div>
                   <div className="block -mb-[0.4rem] text-color-001 max-lg:-mb-[0.1rem]">
-                    Más de 300 pacientes satisfechas
+                    Más de 600 pacientes conformes con sus tratamientos
                   </div>
                 </div>
                 <div className="w-full flex pt-10 pb-7.5 px-7 rounded-[10px] justify-start items-center gap-2.5 bg-surface-5 max-lg:pt-7.5 max-lg:px-5 max-md:flex-wrap max-md:gap-[0.4rem]">

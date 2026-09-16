@@ -112,7 +112,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   <div className="block text-background text-xl font-medium leading-6.5 tracking-[-0.4px] whitespace-nowrap max-lg:text-lg max-lg:leading-[1.4375rem]">
                     Habla con nosotros
                   </div>
-                  <a className="block text-background text-3xl font-semibold leading-9 tracking-[-0.6px] cursor-pointer max-md:text-[1.375rem] max-md:leading-[1.625rem] md:max-lg:text-[1.625rem] md:max-lg:leading-[1.9375rem]" data-ditto-id="style-a" href="tel:+593979898964">
+                  <a className="block text-background text-[1.5rem] font-semibold leading-8 tracking-[-0.48px] whitespace-nowrap cursor-pointer max-md:text-[1.375rem] max-md:leading-[1.625rem] md:max-lg:text-[1.375rem] md:max-lg:leading-[1.75rem]" data-ditto-id="style-a" href="tel:+593979898964">
                     +593 97 989 8964
                   </a>
                   <a className="block text-background cursor-pointer" data-ditto-id="style-a-2" href="mailto:medicallivesthetic@gmail.com">
