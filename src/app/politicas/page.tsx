@@ -25,7 +25,7 @@ const SECCIONES: { titulo: string; parrafos?: string[]; lista?: string[] }[] = [
     lista: [
       "Los que escribes tú al agendar: nombre, teléfono, correo electrónico, el tratamiento que te interesa, el horario que prefieres y el mensaje que nos envías.",
       "Los que nos das en la consulta: antecedentes de salud, motivo de la consulta y evolución del tratamiento. Son datos sensibles y los tratamos con reserva profesional.",
-      "Datos técnicos de la visita al sitio (dirección IP, tipo de navegador), que registra automáticamente el servicio que aloja la página por motivos de seguridad y funcionamiento.",
+      "Datos técnicos de la visita al sitio (dirección IP, tipo de navegador, páginas que miras), que registran el servicio que aloja la página y la herramienta de medición de Google.",
     ],
   },
   {
@@ -47,10 +47,12 @@ const SECCIONES: { titulo: string; parrafos?: string[]; lista?: string[] }[] = [
     ],
   },
   {
-    titulo: "Cookies y seguimiento",
+    titulo: "Cookies y medición de visitas",
     parrafos: [
-      "Este sitio no instala cookies propias, ni herramientas de publicidad, ni sistemas de analítica que te sigan entre páginas. Si en el futuro agregamos alguna, lo avisaremos aquí y pediremos tu consentimiento.",
-      "El mapa, los enlaces a redes sociales y WhatsApp llevan a servicios de terceros que sí pueden usar sus propias cookies cuando los abres.",
+      "Usamos Google Tag Manager, la herramienta con la que Google mide cuántas personas visitan el sitio, desde qué ciudad llegan y qué páginas miran. Para eso instala cookies en tu navegador.",
+      "Esa medición nos sirve para saber qué información buscas y mejorar la página. No la usamos para identificarte por tu nombre ni para cruzarla con tu historia clínica, y no compartimos esos datos con anunciantes.",
+      "Puedes bloquear o borrar estas cookies desde la configuración de tu navegador, y la página seguirá funcionando igual.",
+      "El mapa, los enlaces a redes sociales y WhatsApp llevan a servicios de terceros que también pueden usar sus propias cookies cuando los abres.",
     ],
   },
   {

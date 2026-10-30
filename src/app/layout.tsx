@@ -2,6 +2,7 @@ import "./globals.css";
 import "./ditto-chrome.css";
 import "./fx.css";
 import type { ReactNode } from "react";
+import Script from "next/script";
 import { SITE_ORIGIN } from "../lib/site";
 import ScrollFx from "./fx/ScrollFx";
 import MobileNav from "./MobileNav";
@@ -9,6 +10,11 @@ import HeaderNav from "./HeaderNav";
 import FooterNav from "./FooterNav";
 import { SOCIAL } from "../lib/social";
 import { BUSINESS, KEYWORDS, businessJsonLd } from "../lib/seo";
+
+// Contenedor de Google Tag Manager: desde ahí se activan las mediciones (Analytics y
+// similares) sin volver a tocar el código. Ojo: lo que se active ahí instala cookies, y
+// eso tiene que seguir reflejado en /politicas.
+const GTM_ID = "GTM-T2BK5GD6";
 
 const SITE_TITLE = "Fisioterapia y Estética en Cuenca | Medical Livesthetic Fisiospa";
 const SITE_DESCRIPTION = "Estética avanzada + fisioterapia profesional en un solo lugar. Masajes terapéuticos y relajantes, tratamientos faciales y corporales, y fisioterapia para dolor, tensión y rehabilitación. Agenda tu cita al +593 97 989 8964.";
@@ -54,6 +60,15 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang={"es"}>
       <body className="cn0">
+        <Script id="gtm-datalayer" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());`}
+        </Script>
+        <Script id="gtm" strategy="afterInteractive" src={`https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`} />
+        <noscript>
+          <iframe src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`} height="0" width="0" style={{ display: "none", visibility: "hidden" }} title="Google Tag Manager" />
+        </noscript>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessJsonLd()) }} />
         <ScrollFx />
         <section className="h-[4.65rem] block fixed inset-x-0 z-9999 max-md:h-[3.9375rem] md:max-lg:h-[4.1875rem]">
