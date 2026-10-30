@@ -6,6 +6,7 @@ Sitio web de **Medical Livesthetic Fisiospa** — fisioterapia y estética avanz
 - 📲 +593 97 989 8964
 - ✉️ medicallivesthetic@gmail.com
 - 🕘 Lunes a viernes · 8:30 – 12:00 y 14:00 – 17:30
+- 🌐 https://www.medicalivesthetic.com (la dirección oficial; la vieja de `*.vercel.app` sigue respondiendo)
 
 ## Cómo correrlo
 
@@ -59,6 +60,6 @@ node scripts/build-spa-videos.js     # spa/*.mp4 -> public/assets/spa/ (marca de
 Contenido de ejemplo que hay que reemplazar por datos reales:
 
 - Los dos testimonios son de muestra
-- Falta registrar el sitio en Google Search Console (el código va en la variable `NEXT_PUBLIC_GOOGLE_VERIFICATION` de Vercel) y crear el Perfil de Empresa de Google
+- Falta registrar **https://www.medicalivesthetic.com** en Google Search Console (el código va en la variable `NEXT_PUBLIC_GOOGLE_VERIFICATION` de Vercel) y crear el Perfil de Empresa de Google
 - El formulario de correo del pie no envía a ningún lado todavía
 - El inicio dice "6 días de atención a la semana" (corrección del cliente) pero el horario publicado es de lunes a viernes: falta confirmar el horario del sábado
