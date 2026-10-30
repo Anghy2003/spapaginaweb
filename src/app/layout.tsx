@@ -8,19 +8,28 @@ import MobileNav from "./MobileNav";
 import HeaderNav from "./HeaderNav";
 import FooterNav from "./FooterNav";
 import { SOCIAL } from "../lib/social";
+import { BUSINESS, KEYWORDS, businessJsonLd } from "../lib/seo";
 
-const SITE_TITLE = "Medical Livesthetic Fisiospa | Fisioterapia y Estética avanzada en Cuenca";
+const SITE_TITLE = "Fisioterapia y Estética en Cuenca | Medical Livesthetic Fisiospa";
 const SITE_DESCRIPTION = "Estética avanzada + fisioterapia profesional en un solo lugar. Masajes terapéuticos y relajantes, tratamientos faciales y corporales, y fisioterapia para dolor, tensión y rehabilitación. Agenda tu cita al +593 97 989 8964.";
 
 export const metadata = {
-  "metadataBase": new URL(SITE_ORIGIN || "http://localhost:3000"),
-  "title": SITE_TITLE,
+  "metadataBase": new URL(SITE_ORIGIN),
+  "title": { "default": SITE_TITLE, "template": "%s | Medical Livesthetic Fisiospa" },
   "description": SITE_DESCRIPTION,
+  "keywords": KEYWORDS,
+  "applicationName": "Medical Livesthetic Fisiospa",
+  "alternates": { "canonical": "/" },
+  // Cuando se registre el sitio en Google Search Console, basta con poner el código que da
+  // Google en la variable NEXT_PUBLIC_GOOGLE_VERIFICATION de Vercel: la etiqueta aparece sola.
+  "verification": process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION ? { "google": process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION } : undefined,
+  "robots": { "index": true, "follow": true, "googleBot": { "index": true, "follow": true, "max-image-preview": "large", "max-snippet": -1 } },
   "openGraph": {
     "title": SITE_TITLE,
     "description": SITE_DESCRIPTION,
     "type": "website",
     "locale": "es_EC",
+    "url": SITE_ORIGIN,
     "siteName": "Medical Livesthetic Fisiospa",
     "images": ["/assets/brand/og.png"]
   },
@@ -44,6 +53,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang={"es"}>
       <body className="cn0">
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessJsonLd()) }} />
         <ScrollFx />
         <section className="h-[4.65rem] block fixed inset-x-0 z-9999 max-md:h-[3.9375rem] md:max-lg:h-[4.1875rem]">
           <div className="h-full block relative z-9999 bg-clr-0 max-lg:border-b max-lg:border-solid max-lg:border-b-border max-lg:bg-surface before:content-['_'] before:table before:w-0 before:h-0 before:text-foreground before:text-base before:leading-7 after:content-['_'] after:table after:w-0 after:h-0 after:text-foreground after:text-base after:leading-7" role="banner">
@@ -143,9 +153,18 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 </div>
               </div>
             </div>
+            <div className="block pt-7.5 max-md:pt-5">
+              <p className="block text-color-009 text-center max-md:text-left">
+                Fisioterapia en Cuenca · Rehabilitación de lesiones · Terapia para el dolor muscular y articular · Masajes terapéuticos, relajantes y deportivos · Limpieza Facial Profunda · Tratamientos Faciales · Maderoterapia y moldeamiento · Mesoterapia · Reducción de medidas · Sueros y vitaminas · Teresa de Ávila y Fray Luis de León (Parque Valladolid), Cuenca – Ecuador.
+              </p>
+            </div>
             <div className="border-t border-solid border-t-surface-3 flex py-5 justify-center items-center gap-5 max-md:py-4 max-md:flex-col-reverse max-md:gap-4 max-md:text-center">
               <p className="block text-color-009">
                 {"© 2026 Medical Livesthetic Fisiospa · Todos los derechos reservados · "}
+                <a className="inline text-background underline cursor-pointer" href="/politicas">
+                  Políticas de privacidad
+                </a>
+                {" · "}
                 <a className="inline text-background underline cursor-pointer" data-ditto-id="style-a-5" href="https://wa.me/593979898964" target="_blank" rel="noopener noreferrer">
                   Agenda tu cita por WhatsApp
                 </a>

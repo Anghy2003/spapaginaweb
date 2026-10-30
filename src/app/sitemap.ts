@@ -9,6 +9,7 @@ const ROUTES: [string, number][] = [
   ["/about", 0.8],
   ["/case-study", 0.7],
   ["/contact", 0.9],
+  ["/politicas", 0.3],
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
