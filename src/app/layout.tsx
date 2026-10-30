@@ -20,9 +20,10 @@ export const metadata = {
   "keywords": KEYWORDS,
   "applicationName": "Medical Livesthetic Fisiospa",
   "alternates": { "canonical": "/" },
-  // Cuando se registre el sitio en Google Search Console, basta con poner el código que da
-  // Google en la variable NEXT_PUBLIC_GOOGLE_VERIFICATION de Vercel: la etiqueta aparece sola.
-  "verification": process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION ? { "google": process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION } : undefined,
+  // Código de verificación de Google Search Console. Se publica también el archivo
+  // public/google0dcea8ec98577c68.html, que es el otro método que ofrece Google: con que
+  // uno de los dos esté en su sitio, la verificación pasa.
+  "verification": { "google": process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || "8Dabevmtg997m8loV2Nvh-b-dEHbdiqe_tqxSW0zQfU" },
   "robots": { "index": true, "follow": true, "googleBot": { "index": true, "follow": true, "max-image-preview": "large", "max-snippet": -1 } },
   "openGraph": {
     "title": SITE_TITLE,
