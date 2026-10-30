@@ -2,7 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
-      "comment": "Vercel sirve el sitio con 'URLs limpias': a cualquier ruta terminada en .html le quita la extensión, así que el archivo de verificación de Google Search Console respondía 404 justo en la dirección que Google comprueba. Esta regla devuelve ese archivo en su dirección con .html, sin tocar el resto del sitio.",
       "source": "/google0dcea8ec98577c68.html",
       "destination": "/google0dcea8ec98577c68"
     }

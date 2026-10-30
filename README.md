@@ -46,6 +46,14 @@ npm run build
 | Datos del negocio para Google (dirección, horario) | `src/lib/seo.ts` (`BUSINESS`) |
 | Políticas de privacidad | `src/app/politicas/page.tsx` |
 
+## Verificación de Google
+
+`public/google0dcea8ec98577c68.html` es el archivo de verificación de Search Console.
+Vercel sirve el sitio con URLs limpias y le quita la extensión `.html`, así que la
+dirección exacta que comprueba Google daba 404: por eso `vercel.json` tiene una regla
+que la devuelve. La etiqueta `<meta name="google-site-verification">` está en
+`src/app/layout.tsx` y vale como segundo método.
+
 ## Scripts de assets
 
 El logo y los videos publicados se generan a partir de los originales:
