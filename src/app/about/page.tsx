@@ -171,7 +171,7 @@ const Logo4_styles = [
 ];
 
 export const metadata = pageMetadata({
-  title: "Sobre nosotros | Fisioterapia y Estética en Cuenca",
+  title: "Sobre nosotros | Medical Livesthetic Fisiospa, Cuenca",
   description: "Seis años atendiendo en Cuenca con fisioterapia y estética: valoración previa, protocolos seguros y atención personalizada. Parque Valladolid, Cuenca – Ecuador.",
   path: "/about",
 });

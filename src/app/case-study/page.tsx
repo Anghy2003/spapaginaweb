@@ -48,7 +48,7 @@ const Logo_styles = [
 ];
 
 export const metadata = pageMetadata({
-  title: "Resultados y tratamientos destacados en Cuenca",
+  title: "Resultados y tratamientos | Fisiospa en Cuenca",
   description: "Tratamientos de fisioterapia y estética en nuestra cabina de Cuenca: mesoterapia, sueros y vitaminas, reducción de medidas, limpieza facial profunda y más.",
   path: "/case-study",
 });

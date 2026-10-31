@@ -260,7 +260,7 @@ const Logo9_styles = [
 ];
 
 export const metadata = pageMetadata({
-  title: "Fisioterapia y Estética en Cuenca | Medical Livesthetic",
+  title: "Medical Livesthetic Fisiospa | Fisioterapia y Estética en Cuenca",
   description: "Fisioterapia, rehabilitación y masajes terapéuticos junto a tratamientos faciales y corporales, en un solo lugar en Cuenca. Agenda tu cita al +593 97 989 8964.",
   path: "/",
 });

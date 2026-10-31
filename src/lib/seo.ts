@@ -21,6 +21,9 @@ export const BUSINESS = {
 // Frases cortas con las que la gente busca en Cuenca. Van en las etiquetas de cada página y
 // en la línea de servicios del pie, que es texto visible y por eso cuenta más que una etiqueta.
 export const KEYWORDS = [
+  "fisiospa",
+  "fisiospa Cuenca",
+  "Medical Livesthetic Fisiospa",
   "fisioterapia en Cuenca",
   "fisioterapeuta en Cuenca",
   "rehabilitación física Cuenca",

@@ -1,7 +1,7 @@
 import { pageMetadata, BUSINESS } from "../../lib/seo";
 
 export const metadata = pageMetadata({
-  title: "Políticas de privacidad y aviso legal",
+  title: "Políticas de privacidad | Medical Livesthetic Fisiospa",
   description:
     "Cómo tratamos los datos de quienes nos escriben: qué recogemos, para qué, con quién se comparte y cómo pedir que los eliminemos. Medical Livesthetic Fisiospa, Cuenca.",
   path: "/politicas",

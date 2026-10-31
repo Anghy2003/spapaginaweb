@@ -16,7 +16,7 @@ import { BUSINESS, KEYWORDS, businessJsonLd } from "../lib/seo";
 // eso tiene que seguir reflejado en /politicas.
 const GTM_ID = "GTM-T2BK5GD6";
 
-const SITE_TITLE = "Fisioterapia y Estética en Cuenca | Medical Livesthetic Fisiospa";
+const SITE_TITLE = "Medical Livesthetic Fisiospa | Fisioterapia y Estética en Cuenca";
 const SITE_DESCRIPTION = "Estética avanzada + fisioterapia profesional en un solo lugar. Masajes terapéuticos y relajantes, tratamientos faciales y corporales, y fisioterapia para dolor, tensión y rehabilitación. Agenda tu cita al +593 97 989 8964.";
 
 export const metadata = {

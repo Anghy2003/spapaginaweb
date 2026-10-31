@@ -191,7 +191,7 @@ const Logo3_styles = [
 ];
 
 export const metadata = pageMetadata({
-  title: "Servicios de fisioterapia y estética en Cuenca",
+  title: "Servicios de fisioterapia y estética | Fisiospa en Cuenca",
   description: "Fisioterapia, rehabilitación, masajes terapéuticos, limpieza facial profunda, maderoterapia, mesoterapia y reducción de medidas en Cuenca. Agenda tu cita al +593 97 989 8964.",
   path: "/service",
 });

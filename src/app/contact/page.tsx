@@ -29,7 +29,7 @@ const Tile_meta2: string[][] = [
 ];
 
 export const metadata = pageMetadata({
-  title: "Contacto y ubicación en Cuenca | Medical Livesthetic",
+  title: "Contacto y ubicación | Medical Livesthetic Fisiospa",
   description: "Estamos en Teresa de Ávila y Fray Luis de León (Parque Valladolid), Cuenca. Lunes a viernes de 8:30 a 12:00 y de 14:00 a 17:30. WhatsApp +593 97 989 8964.",
   path: "/contact",
 });
